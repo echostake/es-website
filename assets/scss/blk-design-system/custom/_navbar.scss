@@ -115,18 +115,6 @@
     background-color: $danger !important;
   }
 
-  .navbar-brand {
-    position: relative;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    color: $white;
-    text-transform: capitalize;
-    font-size: $font-paragraph;
-    span{
-      font-weight: $font-weight-bold;
-    }
-  }
-
   .navbar-toggle button:focus, .navbar-toggler{
     outline: none;
   }
@@ -134,9 +122,9 @@
 
 .navbar-minimize-fixed {
 	position: fixed;
-  margin-left: 40px;
-  margin-top: 14px;
-	transition: 0.3s ease;
+    margin-left: 40px;
+    margin-top: 14px;
+
 	color: white;
 	z-index: 20;
 	opacity: 0;

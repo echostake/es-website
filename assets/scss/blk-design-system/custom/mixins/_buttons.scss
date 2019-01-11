@@ -1,5 +1,4 @@
 @mixin btn-styles($btn-color, $btn-states-color) {
-  @include diagonal-gradient($btn-color, $btn-states-color);
     background-color: $btn-color;
     transition: all 0.15s ease;
     box-shadow: none;
@@ -18,10 +17,6 @@
     &.active:hover
      {
         background-color: $btn-states-color !important;
-        background-image: linear-gradient(to bottom left, $btn-color, $btn-states-color, $btn-color) !important;
-        background-image: -webkit-linear-gradient(to bottom left, $btn-color, $btn-states-color, $btn-color) !important;
-        background-image: -o-linear-gradient(to bottom left, $btn-color, $btn-states-color, $btn-color) !important;
-        background-image: -moz-linear-gradient(to bottom left, $btn-color, $btn-states-color, $btn-color) !important;
         color: $white;
         box-shadow: none;
     }
@@ -33,7 +28,6 @@
     }
 
     &:not([data-action]):hover{
-
         box-shadow:  2px 2px 6px rgba(0,0,0,0.4);
         transform: translateY(-1px);
         -webkit-transform: translateY(-1px);
@@ -143,7 +137,7 @@
 
     &.btn-simple{
         color: $btn-color;
-        border-color: $btn-color;
+        border-color: $white;
         background: $transparent-bg;
 
         &:hover,

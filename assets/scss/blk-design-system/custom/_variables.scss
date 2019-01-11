@@ -97,9 +97,9 @@ $default-color-opacity:      rgba(182, 182, 182, .6) !default;
 $orange-color:               #f96332 !default;
 
 $default:       #344675 !default;
-$primary:       #e14eca !default;
+$primary:       #0059FF !default;
 $secondary:     #f4f5f7 !default;
-$success:       #00f2c3 !default;
+$success:       #09EEAF !default;
 $info:          #1d8cf8 !default;
 $warning:       #ff8d72 !default;
 $danger:        #fd5d93 !default;
@@ -376,10 +376,10 @@ $general-transition-time:     300ms             !default;
 
 // Fonts
 
-$font-family-base:            'Poppins', sans-serif !default;
-$font-family-alt:             'Poppins', sans-serif !default;
+$font-family-base:            'SpaceGrotesk', sans-serif !default;
+$font-family-alt:             'Space Mono', monospace !default;
 
-$font-size-dash:              .875rem !default;
+$font-size-dash:              1rem !default;
 
 $font-size-base:              $font-size-dash !default; // Assumes the browser default, typically `16px`
 $font-size-xl:                ($font-size-base * 1.428);
@@ -388,9 +388,9 @@ $font-size-sm:                ($font-size-base * .85714286);
 $font-size-xs:                ($font-size-base * .714);
 
 $h1-font-size:                $font-size-base * 2.35714285 !default;  //2.1875rem
-$h2-font-size:                $font-size-base * 1.9285714 !default;
-$h3-font-size:                $font-size-base * 1.642857 !default;
-$h4-font-size:                $font-size-base * 1.2142857 !default;
+$h2-font-size:                $font-size-base * 3 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 0.9285714 !default;
 $h6-font-size:                $font-size-base * 0.8571428 !default;
 
@@ -516,7 +516,7 @@ $input-btn-line-height-sm:    1.35 !default;
 
 $input-btn-padding-y-lg:      .875rem !default;
 $input-btn-padding-x-lg:      1rem !default;
-$input-btn-line-height-lg:    1.35 !default;
+$input-btn-line-height-lg:    1.5 !default;
 
 $input-btn-border-width:      1px !default;
 
