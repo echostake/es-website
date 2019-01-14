@@ -1,0 +1,421 @@
+
+div.animate, a.animate {
+  transform: translateY(-60px);
+  opacity: 0;
+  @for $i from 1 through 100 {
+    &:nth-child(#{$i}) {
+      transition: all .5s ease #{$i*0.1}s;
+    }
+  }
+}
+
+table.animate tr {
+  transform: translateY(-60px);
+  opacity: 0;
+  @for $i from 1 through 100 {
+    &:nth-child(#{$i}) {
+      transition: all .3s ease #{$i*0.05}s;
+    }
+  }
+}
+
+div.animate--done, table.animate--done tr, a.animate--done {
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+svg.animate--done {
+  @for $i from 1 through 55 {
+    .UsfBSttG_#{$i} {
+      animation: UsfBSttG_draw 666ms linear #{$i+22}ms forwards;
+    }
+    .pJXFZasf_#{$i} {
+      animation: pJXFZasf_draw 666ms linear #{$i+6}ms forwards;
+    }
+  }
+}
+
+.UsfBSttG_0 {
+  stroke-dasharray: 505 507;
+  stroke-dashoffset: 506;
+}
+
+.UsfBSttG_1 {
+  stroke-dasharray: 331 333;
+  stroke-dashoffset: 332;
+}
+
+.UsfBSttG_2 {
+  stroke-dasharray: 250 252;
+  stroke-dashoffset: 251;
+}
+
+.UsfBSttG_3 {
+  stroke-dasharray: 29 31;
+  stroke-dashoffset: 30;
+}
+
+.UsfBSttG_4 {
+  stroke-dasharray: 458 460;
+  stroke-dashoffset: 459;
+}
+
+.UsfBSttG_5 {
+  stroke-dasharray: 38 40;
+  stroke-dashoffset: 39;
+}
+
+.UsfBSttG_6 {
+  stroke-dasharray: 201 203;
+  stroke-dashoffset: 202;
+}
+
+.UsfBSttG_7 {
+  stroke-dasharray: 127 129;
+  stroke-dashoffset: 128;
+}
+
+.UsfBSttG_8 {
+  stroke-dasharray: 131 133;
+  stroke-dashoffset: 132;
+}
+
+.UsfBSttG_9 {
+  stroke-dasharray: 64 66;
+  stroke-dashoffset: 65;
+}
+
+.UsfBSttG_10 {
+  stroke-dasharray: 65 67;
+  stroke-dashoffset: 66;
+}
+
+.UsfBSttG_11 {
+  stroke-dasharray: 1710 1712;
+  stroke-dashoffset: 1711;
+}
+
+.UsfBSttG_12 {
+  stroke-dasharray: 35 37;
+  stroke-dashoffset: 36;
+}
+
+.UsfBSttG_13 {
+  stroke-dasharray: 35 37;
+  stroke-dashoffset: 36;
+}
+
+.UsfBSttG_14 {
+  stroke-dasharray: 35 37;
+  stroke-dashoffset: 36;
+}
+
+.UsfBSttG_15 {
+  stroke-dasharray: 485 487;
+  stroke-dashoffset: 486;
+}
+
+@keyframes UsfBSttG_draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pJXFZasf_0 {
+  stroke-dasharray: 2772 2774;
+  stroke-dashoffset: 2773;
+}
+
+.pJXFZasf_1 {
+  stroke-dasharray: 832 834;
+  stroke-dashoffset: 833;
+}
+
+.pJXFZasf_2 {
+  stroke-dasharray: 792 794;
+  stroke-dashoffset: 793;
+}
+
+.pJXFZasf_3 {
+  stroke-dasharray: 752 754;
+  stroke-dashoffset: 753;
+}
+
+.pJXFZasf_4 {
+  stroke-dasharray: 2566 2568;
+  stroke-dashoffset: 2567;
+}
+
+.pJXFZasf_5 {
+  stroke-dasharray: 357 359;
+  stroke-dashoffset: 358;
+}
+
+.pJXFZasf_6 {
+  stroke-dasharray: 598 600;
+  stroke-dashoffset: 599;
+}
+
+.pJXFZasf_7 {
+  stroke-dasharray: 122 124;
+  stroke-dashoffset: 123;
+}
+
+.pJXFZasf_8 {
+  stroke-dasharray: 152 154;
+  stroke-dashoffset: 153;
+}
+
+.pJXFZasf_9 {
+  stroke-dasharray: 90 92;
+  stroke-dashoffset: 91;
+}
+
+.pJXFZasf_10 {
+  stroke-dasharray: 152 154;
+  stroke-dashoffset: 153;
+}
+
+.pJXFZasf_11 {
+  stroke-dasharray: 61 63;
+  stroke-dashoffset: 62;
+}
+
+.pJXFZasf_12 {
+  stroke-dasharray: 389 391;
+  stroke-dashoffset: 390;
+}
+
+.pJXFZasf_13 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_14 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_15 {
+  stroke-dasharray: 61 63;
+  stroke-dashoffset: 62;
+}
+
+.pJXFZasf_16 {
+  stroke-dasharray: 389 391;
+  stroke-dashoffset: 390;
+}
+
+.pJXFZasf_17 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_18 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_19 {
+  stroke-dasharray: 61 63;
+  stroke-dashoffset: 62;
+}
+
+.pJXFZasf_20 {
+  stroke-dasharray: 389 391;
+  stroke-dashoffset: 390;
+}
+
+.pJXFZasf_21 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_22 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_23 {
+  stroke-dasharray: 61 63;
+  stroke-dashoffset: 62;
+}
+
+.pJXFZasf_24 {
+  stroke-dasharray: 389 391;
+  stroke-dashoffset: 390;
+}
+
+.pJXFZasf_25 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_26 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_27 {
+  stroke-dasharray: 61 63;
+  stroke-dashoffset: 62;
+}
+
+.pJXFZasf_28 {
+  stroke-dasharray: 389 391;
+  stroke-dashoffset: 390;
+}
+
+.pJXFZasf_29 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_30 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_31 {
+  stroke-dasharray: 61 63;
+  stroke-dashoffset: 62;
+}
+
+.pJXFZasf_32 {
+  stroke-dasharray: 389 391;
+  stroke-dashoffset: 390;
+}
+
+.pJXFZasf_33 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_34 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_35 {
+  stroke-dasharray: 598 600;
+  stroke-dashoffset: 599;
+}
+
+.pJXFZasf_36 {
+  stroke-dasharray: 122 124;
+  stroke-dashoffset: 123;
+}
+
+.pJXFZasf_37 {
+  stroke-dasharray: 152 154;
+  stroke-dashoffset: 153;
+}
+
+.pJXFZasf_38 {
+  stroke-dasharray: 90 92;
+  stroke-dashoffset: 91;
+}
+
+.pJXFZasf_39 {
+  stroke-dasharray: 152 154;
+  stroke-dashoffset: 153;
+}
+
+.pJXFZasf_40 {
+  stroke-dasharray: 598 600;
+  stroke-dashoffset: 599;
+}
+
+.pJXFZasf_41 {
+  stroke-dasharray: 122 124;
+  stroke-dashoffset: 123;
+}
+
+.pJXFZasf_42 {
+  stroke-dasharray: 152 154;
+  stroke-dashoffset: 153;
+}
+
+.pJXFZasf_43 {
+  stroke-dasharray: 90 92;
+  stroke-dashoffset: 91;
+}
+
+.pJXFZasf_44 {
+  stroke-dasharray: 152 154;
+  stroke-dashoffset: 153;
+}
+
+.pJXFZasf_45 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_46 {
+  stroke-dasharray: 73 75;
+  stroke-dashoffset: 74;
+}
+
+.pJXFZasf_47 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_48 {
+  stroke-dasharray: 73 75;
+  stroke-dashoffset: 74;
+}
+
+.pJXFZasf_49 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_50 {
+  stroke-dasharray: 73 75;
+  stroke-dashoffset: 74;
+}
+
+.pJXFZasf_51 {
+  stroke-dasharray: 45 47;
+  stroke-dashoffset: 46;
+}
+
+.pJXFZasf_52 {
+  stroke-dasharray: 73 75;
+  stroke-dashoffset: 74;
+}
+
+.pJXFZasf_53 {
+  stroke-dasharray: 55 57;
+  stroke-dashoffset: 56;
+}
+
+.pJXFZasf_54 {
+  stroke-dasharray: 12 14;
+  stroke-dashoffset: 13;
+}
+
+.pJXFZasf_55 {
+  stroke-dasharray: 668 670;
+  stroke-dashoffset: 669;
+}
+
+@keyframes pJXFZasf_draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pJXFZasf_fade {
+  0% {
+    stroke-opacity: 1;
+  }
+  92.3076923076923% {
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}

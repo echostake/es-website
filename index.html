@@ -13,16 +13,18 @@
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet"/>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- Nucleo Icons -->
-    <link href="./assets/css/nucleo-icons.css" rel="stylesheet"/>
     <!-- CSS Files -->
     <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet"/>
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/demo/demo.css" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 </head>
 
 <body class="index-page">
-
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="40">
     <div class="container">
@@ -47,120 +49,114 @@
                     </div>
                     <div class="col-6 collapse-close text-right">
                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation"
-                                aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="tim-icons icon-simple-remove"></i>
+                                aria-controls="navigation-index" aria-expanded="false">
+                            <span class="close__button"></span>
                         </button>
                     </div>
                 </div>
             </div>
             <ul class="navbar-nav">
                 <li class="nav-item p-0">
-                    <a class="nav-link" rel="tooltip" title="Technology" data-placement="bottom"
-                       href="/" target="_blank">
+                    <a class="nav-link" href="#whatIsECHO" target="_blank">
                         Technology
                     </a>
                 </li>
                 <li class="nav-item p-0">
-                    <a class="nav-link" rel="tooltip" title="About" data-placement="bottom"
-                       href="/" target="_blank">
-                        About
-                    </a>
-                </li>
-
-                <li class="nav-item p-0">
-                    <a class="nav-link" rel="tooltip" title="Resources" data-placement="bottom"
-                       href="/" target="_blank">
-                        Resources
-                    </a>
-                </li>
-
-                <li class="nav-item p-0">
-                    <a class="nav-link" rel="tooltip" title="Resources" data-placement="bottom"
-                       href="/" target="_blank">
+                    <a class="nav-link" href="#whatIsECHO">
                         Wallet
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-simple btn-round" href="javascript:void(0)"
-                       onclick="scrollToDownload()">
-                        Subscribe
+                <li class="nav-item p-0">
+                    <a class="nav-link" href="#mining">
+                        Mining software
+                    </a>
+                </li>
+
+                <li class="nav-item p-0">
+                    <a class="nav-link" href="#explorer">
+                        Block explorer
+                    </a>
+                </li>
+
+                <li class="nav-item p-0">
+                    <a class="nav-link" href="#social">
+                        Join community
                     </a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <!-- End Navbar -->
-<div class="wrapper">
-    <div class="page-header header-filter">
-        <div class="squares square1"></div>
-        <div class="squares square2"></div>
-        <div class="squares square3"></div>
-        <div class="squares square4"></div>
-        <div class="squares square5"></div>
-        <div class="squares square6"></div>
-        <div class="squares square7"></div>
-        <div class="container">
-            <div class="top-center">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <h2>
-                            Combining technology best of both worlds
-                        </h2>
-                        <h3>
-                            Fair coin distribution combined with passive income
-                        </h3>
-                        <div class="row">
-                            <div class="col-auto">
-                                <button class="btn btn-primary btn-round btn-lg">
-                                    Read more
-                                </button>
-                            </div>
-                            <div class="col-auto">
-                                <button class="btn btn-simple btn-round btn-lg">
-                                    Download whitepaper
-                                </button>
-                            </div>
+<div class="section page-header">
+    <div class="container">
+        <div class="top-center">
+            <div class="row">
+                <div class="col-md-8 col-lg-6">
+                    <h2 data-aos="slide-up" data-aos-duration="500">
+                        Combining technology best of both worlds
+                    </h2>
+                    <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
+                        Fair coin distribution combined with passive income
+                    </h3>
+                    <div class="row">
+                        <div class="col-auto" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+                            <a class="btn btn-primary btn-round btn-lg btn-xs" href="#whatIsECHO">
+                                Read more
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a style="display: none" class="btn btn-simple btn-round btn-lg"
+                               href="/files/echostake-whitepaper.v1.0.pdf">
+                                Download whitepaper
+                            </a>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-4 col-lg-6 main_bg">
+                    <img src="./assets/img/Hero.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- What is ECHO -->
-<section class="section section-bg">
+<section class="section section-bg" id="whatIsECHO">
     <div class="container">
-        <h2>What is ECHO?</h2>
-        <h3>ECHO, a privacy-focused universal coin with instant, direct and private transactions for everyone.</h3>
+        <h2
+                data-aos="slide-up" data-aos-duration="500"
+        >What is ECHO?</h2>
+        <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">ECHO, a privacy-focused universal coin with
+            instant, direct and private transactions for everyone.</h3>
         <div class="row row-what">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 animate">
                 <h4 class="text-success">GPU efficient mining algorithm</h4>
                 <p>The new ProgPoW algorithm enables GPU mining of maximum efficiency, making it economically
                     impractical to upgrade to ASICs</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 animate">
                 <h4 class="text-success">Truly decentralized</h4>
                 <p>ASIC resistant ProgPoW empowers fair coin distribution, without being consolidated by the government
                     or huge corporations.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 animate">
                 <h4 class="text-success">Privacy-focused</h4>
                 <p>Echostake's superior anonymity improves upon Monero's RingCT technology as well as Zcoin's exposing
                     balances</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 animate">
                 <h4 class="text-success">Instant transactions</h4>
                 <p>A new block is confirmed approx. every 60 seconds providing throughput of XXX tx per minute</p>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 animate">
                 <h4 class="text-success">Transparent rules and operations</h4>
                 <p>All code is open-source and is available on Github for review and audit. Support is available through
                     email and discord.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 animate">
                 <h4 class="text-success">Progressive rewards</h4>
                 <p>Receive protocol rewards through a variety of methods: PoW, PoS, as well as Masternode rewards.</p>
             </div>
@@ -168,112 +164,281 @@
     </div>
 </section>
 <!-- How to start? -->
-<section class="section">
+<section class="section section--how-to-start">
     <div class="container">
-        <h2>How to start?</h2>
+        <h2 data-aos="slide-up" data-aos-duration="500">How to start?</h2>
         <div class="row row-start">
-            <div class="col-lg">
+            <div class="col-lg col-md-6 animate">
                 <p class="text-success">01 /</p>
-                <img src="" alt="">
+                <img src="./assets/img/how-1.svg" alt="">
                 <h5>Download the Echo Wallet</h5>
+                <p>
+                    <a href="/" class="link">Get Wallet</a>
+                </p>
             </div>
-            <div class="col-lg">
+            <div class="col-lg col-md-6 animate">
                 <p class="text-success">02 /</p>
-                <img src="" alt="">
+                <img src="./assets/img/how-2.svg" alt="">
                 <h5>Install ECHO mining software for your GPU</h5>
+                <p>
+                    <a href="/" class="link">Get software</a>
+                </p>
             </div>
-            <div class="col-lg">
+            <div class="col-lg col-md-6 animate">
                 <p class="text-success">03 /</p>
-                <img src="" alt="">
+                <img src="./assets/img/how-3.svg" alt="">
                 <h5>Send and Receive ECHO coins</h5>
             </div>
-            <div class="col-lg">
+            <div class="col-lg col-md-6 animate">
                 <p class="text-success">04 /</p>
-                <img src="" alt="">
-                <h5>Trade on exchanges Coming soon</h5>
+                <img src="./assets/img/how-4.svg" alt="">
+                <h5>Trade on exchanges <br> Coming soon</h5>
             </div>
-            <div class="col-lg">
+            <div class="col-lg col-md-6 animate">
                 <p class="text-success">05 /</p>
-                <img src="" alt="">
+                <img src="./assets/img/how-5.svg" alt="">
                 <h5>Get ready for Phase 2: switch to PoS</h5>
+                <p>
+                    <a href="/" class="link">Get Wallet</a>
+                </p>
             </div>
         </div>
     </div>
 </section>
 <!-- Try our wallets -->
-<section class="section section-bg">
+<section class="section section-bg" id="wallet">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <h2>Try our wallets</h2>
-                <h3>
+        <div class="row row-wallet">
+            <div class="col-lg-6 col-md-8">
+                <h2 data-aos="slide-up" data-aos-duration="500">Try our wallets</h2>
+                <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
                     Straight-forward usability, speed and reliability of transactions. Install Echostake wallet for:
                 </h3>
                 <div class="row">
-                    <div class="col download-item">
-                        <a href="" class="download-link text-white">
+                    <div class="col-6 animate">
+                        <a href="https://wallet.echostake.com/" target="_blank" class="download-link link">
                             <img src="./assets/img/finder.svg" alt="">
                             MacOS
                         </a>
-                    </div>
-                    <div class="col download-item">
-                        <a href="" class="download-link text-white">
+                        <a href="https://wallet.echostake.com/" target="_blank" class="download-link link">
                             <img src="./assets/img/linux.svg" alt="">
                             Linux
                         </a>
-                    </div>
-                    <div class="col download-item">
-                        <a href="" class="download-link text-white">
+                        <a href="https://wallet.echostake.com/" target="_blank" class="download-link link">
                             <img src="./assets/img/windows.svg" alt="">
                             Windows
                         </a>
+                        <a href="https://wallet.echostake.com/" target="_blank" class="download-link link">
+                            <img src="./assets/img/web.svg" alt="">
+                            Go to Web wallet
+                        </a>
+                        <a href="https://wallet.echostake.com/" target="_blank" class="download-link link">
+                            <img src="./assets/img/qr.svg" alt="">
+                            Generate Paper wallet
+                        </a>
                     </div>
-                    <div class="col download-item">
+                    <div class="col-6 animate">
                         <a href="" class="download-link text-white disabled">
                             <img src="./assets/img/apple.svg" alt="">
                             Soon
                         </a>
-                    </div>
-                    <div class="col download-item">
                         <a href="" class="download-link text-white disabled">
                             <img src="./assets/img/google.svg" alt="">
                             Soon
                         </a>
                     </div>
                 </div>
-                <div class="wallets-web">
-                    <div class="btn btn-primary btn-round btn-lg">Go to web wallet</div>
-                    <div class="wallets-web__text">
-                        <p>
-                            To create your web wallet and start receiving and sending ECHO <a class="link" href="">click
-                            here</a>
-                        </p>
-                    </div>
-                </div>
+            </div>
+            <div class="col-lg-6 col-md-4">
+                <img src="./assets/img/wallet-app.svg" class="full-width bg-wallets" alt="">
             </div>
         </div>
 
     </div>
 </section>
 
-<section class="section section-explorer">
+<section class="section section-explorer" id="explorer">
     <div class="container">
-        <h2>Block explorer</h2>
-        <h3>
-            View ECHO transactions on <a class="link" href="">blocks.echostake.com</a>
+        <h2 data-aos="slide-up" data-aos-duration="500">Block explorer</h2>
+        <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
+            View ECHO transactions on <a class="link" href="https://blocks.echostake.com/">blocks.echostake.com</a>
         </h3>
-        <img src="./assets/img/explorer-bg.svg" alt="">
+        <svg x="0px" y="0px" width="885.5px" class="animate" height="292.8px" viewB ox="0 0 885.5 292.8">
+            <g id="Page-1">
+                <g id="XL_x2265_1200" transform="translate(0.000000, -2738.000000)">
+                    <g id="Group-7-_x5B_0v_x5D_">
+                        <g id="Group-6" transform="translate(0.000000, 2600.000000)">
+                            <g id="Image_x2F_block-explorer_1_" transform="translate(60.000000, 238.000000)">
+                                <g id="Mask">
+                                    <defs>
+                                        <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse"
+                                                x="-60" y="-100" width="885.5" height="465.3">
+                                            <feColorMatrix type="matrix"
+                                                           values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"></feColorMatrix>
+                                        </filter>
+                                    </defs>
+                                    <mask maskUnits="userSpaceOnUse" x="-60" y="-100" width="885.5"
+                                          height="465.3" id="mask-2">
+                                        <g style="filter:url(#Adobe_OpacityMaskFilter);">
+                                            <path id="path-1" style="fill:#FFFFFF;" width="1080" height="306"
+                                                  d="M-157.2 -110.2 L922.8 -110.2 L922.8 195.8 L-157.2 195.8 Z"
+                                                  class="pJXFZasf_0"></path>
+                                        </g>
+                                    </mask>
+                                    <g id="Image_x2F_block-explorer" style="mask:url(#mask-2);">
+                                        <g id="Group-111" transform="translate(91.000000, 4.000000)">
+                                            <g transform="translate(6.662953, 6.669027)">
+                                                <path id="Stroke-1"
+                                                      style="opacity:0.7115;fill:none;stroke:#0059FF;enable-background:new    ;"
+                                                      d="M-110.5-50.1v-11.5
+										c0-7.9,6.1-14.3,13.6-14.3h764.9c7.5,0,13.6,6.4,13.6,14.3v11.5"
+                                                      class="pJXFZasf_1"></path>
+                                                <path id="Stroke-3"
+                                                      style="opacity:0.4491;fill:none;stroke:#0059FF;enable-background:new    ;"
+                                                      d="M-73-50.1v-30.1
+										c0-6.9,5.5-12.4,12.3-12.4h692.5c6.8,0,12.3,5.6,12.3,12.4v30.1"
+                                                      class="pJXFZasf_2"></path>
+                                                <path id="Stroke-5"
+                                                      style="opacity:0.3386;fill:none;stroke:#0059FF;enable-background:new    ;"
+                                                      d="M-35.6-50.1v-49
+										c0-6.1,4.9-11,11-11h619.3c6.1,0,11,4.9,11,11v49" class="pJXFZasf_3"></path>
+                                                <path id="Stroke-7" style="fill:none;stroke:#0059FF;" d="M727.3,354.2h-884.5V-36.2c0-7.7,6.3-14,14-14h856.6
+										c7.7,0,14,6.3,14,14V354.2z" class="pJXFZasf_4"></path>
+                                                <path id="Fill-9" style="fill:#FFFFFF;" d="M-113,9c-4.8,0-6.4-0.6-8.5-2.5c1.1,0.3,2.3,0.4,3.4,0.4
+										c7.6,0,13.7-6.2,13.7-13.8c0-7.6-6.2-13.8-13.7-13.8c-1.2,0-2.3,0.2-3.4,0.4c2.2-1.7,3.7-2.5,8.5-2.5
+										c8.7,0,15.8,7.1,15.8,15.8C-97.2,1.9-104.3,9-113,9 M-126.2,0.9c1,0.4,2.2,0.7,3.4,0.7c2.4,0,4.4-0.8,6.1-2.5
+										s2.5-3.7,2.5-6.1s-0.8-4.4-2.5-6.1c-1.7-1.7-3.7-2.5-6.1-2.5c-1,0-2,0.2-2.9,0.5c1.5-1.8,3-3,7.6-3c6.2,0,11.2,5,11.2,11.2
+										c0,6.2-5,11.2-11.2,11.2C-123,4.4-124.5,3.3-126.2,0.9 M-122.8-12.8c1.6,0,3,0.6,4.2,1.7c1.1,1.1,1.7,2.5,1.7,4.2
+										c0,1.7-0.6,3.1-1.7,4.2c-1.1,1.1-2.5,1.7-4.2,1.7c-1.6,0-3-0.6-4.1-1.7c-1.1-1.1-1.7-2.5-1.7-4.2c0-1.7,0.6-3.1,1.7-4.2
+										C-125.8-12.3-124.4-12.8-122.8-12.8 M-113-25.1c-10,0-18.1,8-18.3,18c0,0.1,0,0.1,0,0.2c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1
+										c0,10.1,8.2,18.3,18.3,18.3c10.1,0,18.3-8.2,18.3-18.3C-94.7-16.9-102.9-25.1-113-25.1"
+                                                      class="pJXFZasf_5"></path>
+                                                <path id="Stroke-11" style="fill:none;stroke:#0059FF;" d="M211.1,146.6H16.8c-4.5,0-8.2-3.7-8.2-8.3V59.8
+										c0-4.6,3.7-8.3,8.2-8.3h194.3c4.5,0,8.2,3.7,8.2,8.3v78.5C219.3,142.9,215.6,146.6,211.1,146.6z"
+                                                      class="pJXFZasf_6"></path>
+                                                <path id="Stroke-13" style="fill:none;stroke:#0059FF;"
+                                                      d="M25.2,69.9h121.6" class="pJXFZasf_7"></path>
+                                                <path id="Stroke-15" style="fill:none;stroke:#0059FF;"
+                                                      d="M25.2,83.2h151.6" class="pJXFZasf_8"></path>
+                                                <path id="Stroke-17" style="fill:none;stroke:#0059FF;"
+                                                      d="M25.2,97.4h89.9" class="pJXFZasf_9"></path>
+                                                <path id="Stroke-19" style="fill:none;stroke:#0059FF;"
+                                                      d="M25.2,126.6h151.6" class="pJXFZasf_10"></path>
+                                                <path id="Stroke-21" style="fill:none;stroke:#0059FF;"
+                                                      d="M8.6,204.9h60.8" class="pJXFZasf_11"></path>
+                                                <path id="Stroke-23" style="fill:none;stroke:#0059FF;"
+                                                      d="M116.9,204.9h388.9" class="pJXFZasf_12"></path>
+                                                <path id="Stroke-25" style="fill:none;stroke:#0059FF;"
+                                                      d="M549.9,204.9h44.1" class="pJXFZasf_13"></path>
+                                                <path id="Stroke-27" style="fill:none;stroke:#0059FF;"
+                                                      d="M624.9,204.9H669" class="pJXFZasf_14"></path>
+                                                <path id="Stroke-29" style="fill:none;stroke:#0059FF;"
+                                                      d="M8.6,233.3h60.8" class="pJXFZasf_15"></path>
+                                                <path id="Stroke-31" style="fill:none;stroke:#0059FF;"
+                                                      d="M116.9,233.3h388.9" class="pJXFZasf_16"></path>
+                                                <path id="Stroke-33" style="fill:none;stroke:#0059FF;"
+                                                      d="M549.9,233.3h44.1" class="pJXFZasf_17"></path>
+                                                <path id="Stroke-35" style="fill:none;stroke:#0059FF;"
+                                                      d="M624.9,233.3H669" class="pJXFZasf_18"></path>
+                                                <path id="Stroke-37" style="fill:none;stroke:#0059FF;"
+                                                      d="M8.6,260.8h60.8" class="pJXFZasf_19"></path>
+                                                <path id="Stroke-39" style="fill:none;stroke:#0059FF;"
+                                                      d="M116.9,260.8h388.9" class="pJXFZasf_20"></path>
+                                                <path id="Stroke-41" style="fill:none;stroke:#0059FF;"
+                                                      d="M549.9,260.8h44.1" class="pJXFZasf_21"></path>
+                                                <path id="Stroke-43" style="fill:none;stroke:#0059FF;"
+                                                      d="M624.9,260.8H669" class="pJXFZasf_22"></path>
+                                                <path id="Stroke-45" style="fill:none;stroke:#0059FF;"
+                                                      d="M8.6,289.1h60.8" class="pJXFZasf_23"></path>
+                                                <path id="Stroke-47" style="fill:none;stroke:#0059FF;"
+                                                      d="M116.9,289.1h388.9" class="pJXFZasf_24"></path>
+                                                <path id="Stroke-49" style="fill:none;stroke:#0059FF;"
+                                                      d="M549.9,289.1h44.1" class="pJXFZasf_25"></path>
+                                                <path id="Stroke-51" style="fill:none;stroke:#0059FF;"
+                                                      d="M624.9,289.1H669" class="pJXFZasf_26"></path>
+                                                <path id="Stroke-53" style="fill:none;stroke:#0059FF;"
+                                                      d="M8.6,317.5h60.8" class="pJXFZasf_27"></path>
+                                                <path id="Stroke-55" style="fill:none;stroke:#0059FF;"
+                                                      d="M116.9,317.5h388.9" class="pJXFZasf_28"></path>
+                                                <path id="Stroke-57" style="fill:none;stroke:#0059FF;"
+                                                      d="M549.9,317.5h44.1" class="pJXFZasf_29"></path>
+                                                <path id="Stroke-59" style="fill:none;stroke:#0059FF;"
+                                                      d="M624.9,317.5H669" class="pJXFZasf_30"></path>
+                                                <path id="Stroke-61" style="fill:none;stroke:#0059FF;"
+                                                      d="M8.6,345h60.8" class="pJXFZasf_31"></path>
+                                                <path id="Stroke-63" style="fill:none;stroke:#0059FF;"
+                                                      d="M116.9,345h388.9" class="pJXFZasf_32"></path>
+                                                <path id="Stroke-65" style="fill:none;stroke:#0059FF;"
+                                                      d="M549.9,345h44.1" class="pJXFZasf_33"></path>
+                                                <path id="Stroke-67" style="fill:none;stroke:#0059FF;"
+                                                      d="M624.9,345H669" class="pJXFZasf_34"></path>
+                                                <path id="Stroke-69" style="fill:none;stroke:#0059FF;" d="M440.1,146.6H245.8c-4.5,0-8.2-3.7-8.2-8.3V59.8
+										c0-4.6,3.7-8.3,8.2-8.3h194.3c4.5,0,8.2,3.7,8.2,8.3v78.5C448.3,142.9,444.7,146.6,440.1,146.6z"
+                                                      class="pJXFZasf_35"></path>
+                                                <path id="Stroke-71" style="fill:none;stroke:#0059FF;"
+                                                      d="M254.3,69.9h121.6" class="pJXFZasf_36"></path>
+                                                <path id="Stroke-73" style="fill:none;stroke:#0059FF;"
+                                                      d="M253.4,83.2H405" class="pJXFZasf_37"></path>
+                                                <path id="Stroke-75" style="fill:none;stroke:#0059FF;"
+                                                      d="M253.4,97.4h89.9" class="pJXFZasf_38"></path>
+                                                <path id="Stroke-77" style="fill:none;stroke:#0059FF;"
+                                                      d="M253.4,126.6H405" class="pJXFZasf_39"></path>
+                                                <path id="Stroke-79" style="fill:none;stroke:#0059FF;" d="M668.3,146.6H474c-4.5,0-8.2-3.7-8.2-8.3V59.8
+										c0-4.6,3.7-8.3,8.2-8.3h194.3c4.5,0,8.2,3.7,8.2,8.3v78.5C676.5,142.9,672.9,146.6,668.3,146.6z"
+                                                      class="pJXFZasf_40"></path>
+                                                <path id="Stroke-81" style="fill:none;stroke:#0059FF;"
+                                                      d="M482.5,69.9h121.6" class="pJXFZasf_41"></path>
+                                                <path id="Stroke-83" style="fill:none;stroke:#0059FF;"
+                                                      d="M482.5,83.2h151.6" class="pJXFZasf_42"></path>
+                                                <path id="Stroke-85" style="fill:none;stroke:#0059FF;"
+                                                      d="M482.5,97.4h89.9" class="pJXFZasf_43"></path>
+                                                <path id="Stroke-87" style="fill:none;stroke:#0059FF;"
+                                                      d="M482.5,126.6h151.6" class="pJXFZasf_44"></path>
+                                                <path id="Stroke-89" style="fill:none;stroke:#0059FF;" d="M-114.7,62c0,3.9-3.2,7.1-7.1,7.1c-3.9,0-7.1-3.2-7.1-7.1
+										s3.2-7.1,7.1-7.1C-117.9,54.9-114.7,58.1-114.7,62z" class="pJXFZasf_45"></path>
+                                                <path id="Stroke-91" style="fill:none;stroke:#0059FF;"
+                                                      d="M-107.2,62.4h72.5" class="pJXFZasf_46"></path>
+                                                <path id="Stroke-93" style="fill:none;stroke:#0059FF;" d="M-114.7,90.3c0,3.9-3.2,7.1-7.1,7.1c-3.9,0-7.1-3.2-7.1-7.1
+										s3.2-7.1,7.1-7.1C-117.9,83.2-114.7,86.4-114.7,90.3z" class="pJXFZasf_47"></path>
+                                                <path id="Stroke-95" style="fill:none;stroke:#0059FF;"
+                                                      d="M-107.2,90.7h72.5" class="pJXFZasf_48"></path>
+                                                <path id="Stroke-97" style="fill:none;stroke:#0059FF;" d="M-114.7,119.5c0,3.9-3.2,7.1-7.1,7.1c-3.9,0-7.1-3.2-7.1-7.1
+										s3.2-7.1,7.1-7.1C-117.9,112.4-114.7,115.6-114.7,119.5z"
+                                                      class="pJXFZasf_49"></path>
+                                                <path id="Stroke-99" style="fill:none;stroke:#0059FF;"
+                                                      d="M-107.2,119.1h72.5" class="pJXFZasf_50"></path>
+                                                <path id="Stroke-101" style="fill:none;stroke:#0059FF;" d="M-114.7,147c0,3.9-3.2,7.1-7.1,7.1c-3.9,0-7.1-3.2-7.1-7.1
+										c0-3.9,3.2-7.1,7.1-7.1C-117.9,139.9-114.7,143.1-114.7,147z"
+                                                      class="pJXFZasf_51"></path>
+                                                <path id="Stroke-103" style="fill:none;stroke:#0059FF;"
+                                                      d="M-107.2,146.6h72.5" class="pJXFZasf_52"></path>
+                                                <path id="Stroke-105" style="fill:none;stroke:#0059FF;" d="M33.6-13.1c0,4.8-3.9,8.8-8.7,8.8c-4.8,0-8.7-3.9-8.7-8.8
+										s3.9-8.8,8.7-8.8C29.6-21.8,33.6-17.9,33.6-13.1z" class="pJXFZasf_53"></path>
+                                                <path id="Stroke-107" style="fill:none;stroke:#0059FF;"
+                                                      d="M31.1-6.8l8.3,8.3" class="pJXFZasf_54"></path>
+                                                <path id="Stroke-109" style="fill:none;stroke:#0059FF;"
+                                                      d="M11.1,9h668" class="pJXFZasf_55"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
     </div>
 </section>
-<section class="section section-bg">
+<section class="section section-bg" id="mining">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
-                <h2>Install ECHO Mining software</h2>
-                <h3>
+            <div class="col-md-7">
+                <h2 data-aos="slide-up" data-aos-duration="500">Install ECHO Mining software</h2>
+                <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
                     Software preconfigured for your GPUs:
                 </h3>
-                <div class="row">
+                <div class="row animate">
                     <div class="col-auto">
                         <img src="./assets/img/nvidia.svg" alt="">
                     </div>
@@ -281,14 +446,45 @@
                         <img src="./assets/img/amd.svg" alt="">
                     </div>
                 </div>
-                <div class="wallets-web">
+                <div class="wallets-web animate">
                     <div class="btn btn-primary btn-round btn-lg">Download & Install</div>
-                    <div class="wallets-web__text">
-                        <p>
-                            2 mining pools will be committ to support ECHO coin from launch
-                        </p>
-                    </div>
                 </div>
+            </div>
+            <div class="col-md-5 main_bg">
+                <svg width="485px" height="380px" viewBox="0 0 485 380" class="animate">
+                    <g id="Image/Install-mining-soft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Group-33" stroke="#0059FF">
+                            <path d="M110.999649,186.88282 C102.860449,186.88282 100.221867,186.241333 96.6184987,184.297924 C98.4792085,184.593401 100.426348,184.754123 102.435325,184.754123 C115.258622,184.754123 125.691385,178.359613 125.691385,170.499649 C125.691385,162.640387 115.258622,156.245877 102.435325,156.245877 C100.426348,156.245877 98.4799111,156.406599 96.6199041,156.701374 C100.26965,154.90816 102.861152,154.11718 110.999649,154.11718 C125.739168,154.11718 137.729784,161.466902 137.729784,170.499649 C137.729784,179.533098 125.739168,186.88282 110.999649,186.88282 Z M88.7132932,178.516124 C90.4707082,178.966709 92.3862274,179.192703 94.447905,179.192703 C98.4581279,179.192703 101.918851,178.351892 104.721861,176.633775 C107.524169,174.917062 108.951322,172.829775 108.951322,170.337523 C108.951322,167.845973 107.524169,165.758685 104.721861,164.04127 C101.918851,162.323855 98.4581279,161.482343 94.447905,161.482343 C92.7143812,161.482343 91.089071,161.650084 89.5684608,161.967318 C92.0292634,160.136204 94.6200628,158.863057 102.435325,158.863057 C112.903222,158.863057 121.420466,164.084083 121.420466,170.499649 C121.420466,176.915917 112.903222,182.136241 102.435325,182.136241 C94.1893169,182.136241 91.6455975,180.955738 88.7132932,178.516124 Z M94.447905,164.249016 C97.2382669,164.249016 99.5824238,164.830846 101.480376,165.993803 C103.376922,167.156761 104.32625,168.592736 104.32625,170.337523 C104.32625,172.081608 103.376922,173.518285 101.480376,174.681944 C99.5824238,175.8442 97.2382669,176.426731 94.447905,176.426731 C91.7130552,176.426731 89.3688983,175.8442 87.4723516,174.681944 C85.5743996,173.518285 84.6257749,172.081608 84.6257749,170.337523 C84.6257749,168.592736 85.5743996,167.156761 87.4723516,165.993803 C89.3688983,164.830846 91.7130552,164.249016 94.447905,164.249016 Z M110.999649,151.5 C94.1218592,151.5 80.3604774,159.81125 80.0161618,170.105914 C80.013351,170.183819 80,170.258214 80,170.337523 C80,170.357876 80.0042161,170.376826 80.0042161,170.397882 C80.0042161,170.432272 80,170.465259 80,170.499649 C80,180.976793 93.9068376,189.5 110.999649,189.5 C128.093162,189.5 142,180.976793 142,170.499649 C142,160.023207 128.093162,151.5 110.999649,151.5 Z"
+                                  id="Stroke-1" class="UsfBSttG_0"></path>
+                            <path d="M175.56019,240.5 L48.4405084,240.5 C45.9883082,240.5 44,238.527057 44,236.0945 L44,211.906193 C44,209.472943 45.9883082,207.5 48.4405084,207.5 L175.56019,207.5 C178.013089,207.5 180,209.472943 180,211.906193 L180,236.0945 C180,238.527057 178.013089,240.5 175.56019,240.5 Z"
+                                  id="Stroke-3" class="UsfBSttG_1"></path>
+                            <path d="M44,210.5 L61.2471413,140.16479 C61.7739102,138.012722 63.6888619,136.5 65.8860613,136.5 L158.113939,136.5 C160.311138,136.5 162.22609,138.012722 162.752859,140.16479 L180,210.5"
+                                  id="Stroke-5" class="UsfBSttG_2"></path>
+                            <path d="M65,223.99965 C65,226.484991 62.9849911,228.5 60.4996501,228.5 C58.0150089,228.5 56,226.484991 56,223.99965 C56,221.514309 58.0150089,219.5 60.4996501,219.5 C62.9849911,219.5 65,221.514309 65,223.99965 Z"
+                                  id="Stroke-7" class="UsfBSttG_3"></path>
+                            <path d="M423.130816,241.5 L303.869184,241.5 C300.628139,241.5 298,238.858229 298,235.600374 L298,143.399626 C298,140.141771 300.628139,137.5 303.869184,137.5 L353.144697,137.5 C356.386442,137.5 359.013881,140.141771 359.013881,143.399626 L359.013881,148.973254 L423.130816,148.973254 C426.371861,148.973254 429,151.614321 429,154.872176 L429,235.600374 C429,238.858229 426.371861,241.5 423.130816,241.5 Z"
+                                  id="Stroke-9" class="UsfBSttG_4"></path>
+                            <path d="M336.169228,214.994692 L333.594566,219.606906 C332.364055,221.811065 333.105051,224.62415 335.24937,225.88831 C335.952039,226.302324 336.717243,226.5 337.473032,226.5 C339.024284,226.5 340.533174,225.669207 341.360912,224.187327 L345,217.666776 C343.24299,214.347751 338.690096,213.98834 336.169228,214.994692 Z"
+                                  id="Stroke-11" class="UsfBSttG_5"></path>
+                            <path d="M364.45204,202.195256 L352.883933,202.195256 L371.391251,169.469311 C372.65111,167.239919 371.892715,164.39622 369.695367,163.117989 C367.500085,161.839757 364.695883,162.609212 363.435336,164.837906 L361.756672,167.806702 L360.064921,164.829519 C358.80024,162.603621 355.996039,161.839058 353.801446,163.122881 C351.607542,164.406004 350.854658,167.251101 352.119338,169.477698 L356.476149,177.144991 L342.309109,202.195256 L331.586189,202.195256 C329.052695,202.195256 327,204.277886 327,206.847628 C327,209.41737 329.052695,211.5 331.586189,211.5 L370.996555,211.5 C372.811606,206.847628 369.706388,202.195256 364.45204,202.195256 Z"
+                                  id="Stroke-13" class="UsfBSttG_6"></path>
+                            <path d="M393.344986,202.806517 L382.560906,202.806517 L369.616794,180.5 C369.616794,180.5 362.163318,186.087745 368.656003,197.364666 C371.236993,201.847089 383.637776,223.183757 383.637776,223.183757 C384.499971,224.669793 386.065628,225.5 387.676037,225.5 C388.464809,225.5 389.26407,225.300611 389.996202,224.880297 C392.223364,223.604766 392.988361,220.776504 391.704508,218.563777 L387.928472,212.056204 L393.344986,212.056204 C395.916187,212.056204 398,209.985897 398,207.43136 C398,204.876824 395.916187,202.806517 393.344986,202.806517 Z"
+                                  id="Stroke-15" class="UsfBSttG_7"></path>
+                            <path d="M429,154 L298,154" id="Stroke-17" class="UsfBSttG_8"></path>
+                            <path d="M208,187 L272,187" id="Stroke-19" class="UsfBSttG_9"></path>
+                            <path id="Stroke-21" d="M249,164.5L272,187.00035L249,209.5" class="UsfBSttG_10"></path>
+                            <path d="M477.395592,379.5 C480.99115,379.5 484,375.784166 484,371.1082 L484,9.89179954 C484,5.2158342 480.99115,1.5 477.395592,1.5 L7.60370665,1.5 C4.00831667,1.5 1,5.21564858 1,9.89179954 L1,371.1082 C1,375.784351 4.00831667,379.5 7.60370665,379.5 L477.395592,379.5 Z"
+                                  id="Stroke-23" stroke-width="2" class="UsfBSttG_11"></path>
+                            <path d="M23,18 C23,21.0375262 20.5373742,23.5 17.4996605,23.5 C14.4626258,23.5 12,21.0375262 12,18 C12,14.9624738 14.4626258,12.5 17.4996605,12.5 C20.5373742,12.5 23,14.9624738 23,18 Z"
+                                  id="Stroke-25" class="UsfBSttG_12"></path>
+                            <path d="M44,18 C44,21.0375262 41.5373742,23.5 38.4996605,23.5 C35.4626258,23.5 33,21.0375262 33,18 C33,14.9624738 35.4626258,12.5 38.4996605,12.5 C41.5373742,12.5 44,14.9624738 44,18 Z"
+                                  id="Stroke-27" class="UsfBSttG_13"></path>
+                            <path d="M65,18 C65,21.0375262 62.5373742,23.5 59.4996605,23.5 C56.4626258,23.5 54,21.0375262 54,18 C54,14.9624738 56.4626258,12.5 59.4996605,12.5 C62.5373742,12.5 65,14.9624738 65,18 Z"
+                                  id="Stroke-29" class="UsfBSttG_14"></path>
+                            <path d="M0,36 L485,36" id="Stroke-31" class="UsfBSttG_15"></path>
+                        </g>
+                    </g>
+                </svg>
             </div>
         </div>
     </div>
@@ -296,8 +492,8 @@
 
 <section class="section">
     <div class="container">
-        <h2>Coin Specifications</h2>
-        <table class="table">
+        <h2 data-aos="slide-up" data-aos-duration="500">Coin Specifications</h2>
+        <table class="table animate">
             <tbody>
             <tr>
                 <th scope="row">Ticker</th>
@@ -361,93 +557,165 @@
             </tr>
             </tbody>
         </table>
+    </div>
+</section>
+<section class="section section-bg">
+    <div class="container">
+        <h2 data-aos="slide-up" data-aos-duration="500">Fair distribution, effective consensus</h2>
+        <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
+            Echostake represents a new digital currency, bound to introduce an innovative mining mechanism, alongside an
+            improved method of sending and receiving coins.
+        </h3>
+        <h3 class="title-primary" data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
+            Coin supply and block reward scheme
+        </h3>
+        <div class="table-responsive">
+            <table class="table table-sm animate">
+                <thead>
+                <tr>
+                    <th>
+                        Blocknumber
+                    </th>
+                    <th>
+                        Periode (days)
+                    </th>
+                    <th>
+                        PoW-Blockreward
+                    </th>
+                    <th>
+                        Mn-Blockreward
+                    </th>
+                    <th>
+                        PoS-Blockreward
+                    </th>
+                    <th>
+                        Blockreward
+                    </th>
+                    <th>
+                        Coins mined Total
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1—5,760</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>5,670</td>
+                </tr>
+                <tr>
+                    <td>5,761—17,280</td>
+                    <td>8</td>
+                    <td>5,500</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>5,500</td>
+                    <td>63,360,000</td>
+                </tr>
+                <tr>
+                    <td>17,281—40,320</td>
+                    <td>16</td>
+                    <td>4,500</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4,500</td>
+                    <td>103,680,000</td>
+                </tr>
+                <tr>
+                    <td>40,321—74,880</td>
+                    <td>24</td>
+                    <td>3,600</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3,600</td>
+                    <td>124,416,000</td>
+                </tr>
+                <tr>
+                    <td>74,881—120,960</td>
+                    <td>32</td>
+                    <td>2,800</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2,800</td>
+                    <td>129,024,000</td>
+                </tr>
 
-        <table class="table table-sm">
-            <thead>
-            <tr>
-                <th>
-                    Blocknumber
-                </th>
-                <th>
-                    Periode (days)
-                </th>
-                <th>
-                    PoW-Blockreward
-                </th>
-                <th>
-                    Mn-Blockreward
-                </th>
-                <th>
-                    PoS-Blockreward
-                </th>
-                <th>
-                    Blockreward
-                </th>
-                <th>
-                    Coins mined Total
-                </th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>1—5,760</td>
-                <td>4</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                <td>6,670</td>
-            </tr>
-            <tr>
-                <td>5,760—17,280</td>
-                <td>8</td>
-                <td>5,500</td>
-                <td>0</td>
-                <td>0</td>
-                <td>5,500</td>
-                <td>63,360,000</td>
-            </tr>
-            <tr>
-                <td>17,280—40,320</td>
-                <td>16</td>
-                <td>4,500</td>
-                <td>0</td>
-                <td>0</td>
-                <td>4,500</td>
-                <td>103,680,000</td>
-            </tr>
-            <tr>
-                <td>17,280—40,320</td>
-                <td>16</td>
-                <td>4,500</td>
-                <td>0</td>
-                <td>0</td>
-                <td>4,500</td>
-                <td>103,680,000</td>
-            </tr>
-            <tr>
-                <td>1,848,961—2,540,000</td>
-                <td>16</td>
-                <td>4,500</td>
-                <td>0</td>
-                <td>0</td>
-                <td>4,500</td>
-                <td>103,680,000</td>
-            </tr>
+                <tr>
+                    <td>120,961—236,160</td>
+                    <td>80</td>
+                    <td>0</td>
+                    <td>1,680</td>
+                    <td>420</td>
+                    <td>2,100</td>
+                    <td>242,920,000</td>
+                </tr>
 
-            </tbody>
-        </table>
+                <tr>
+                    <td>236,161—466,560</td>
+                    <td>160</td>
+                    <td>0</td>
+                    <td>1,200</td>
+                    <td>300</td>
+                    <td>1,500</td>
+                    <td>345,600,000</td>
+                </tr>
+
+                <tr>
+                    <td>466,561—812,160</td>
+                    <td>240</td>
+                    <td>0</td>
+                    <td>800</td>
+                    <td>200</td>
+                    <td>1000</td>
+                    <td>345,600,000</td>
+                </tr>
+
+                <tr>
+                    <td>812,161—1,272,960</td>
+                    <td>320</td>
+                    <td>0</td>
+                    <td>480</td>
+                    <td>120</td>
+                    <td>600</td>
+                    <td>276,480,000</td>
+                </tr>
+
+                <tr>
+                    <td>1,272,961—1,848,960</td>
+                    <td>400</td>
+                    <td>0</td>
+                    <td>240</td>
+                    <td>60</td>
+                    <td>300</td>
+                    <td>172,800,000</td>
+                </tr>
+
+                <tr>
+                    <td>1,848,961—2,540,000</td>
+                    <td>480</td>
+                    <td>0</td>
+                    <td>80</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>69,120,000</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </section>
 
-<section class="section section-bg section-roadmap">
+<section class="section section-roadmap">
     <div class="container">
-        <h2>The Roadmap</h2>
-        <h3>
+        <h2 data-aos="slide-up" data-aos-duration="500">The Roadmap</h2>
+        <h3 data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
             Commited to make Echostake widely adopted
         </h3>
         <div class="row roadmap__list">
-            <div class="col">
+            <div class="col-md col-sm-12 animate">
                 <div class="roadmap__item">
                     <p class="text-success">01 /</p>
                     <p class="text-white">
@@ -455,7 +723,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md col-sm-12 animate">
                 <div class="roadmap__item">
                     <p class="text-success">02 /</p>
                     <p class="text-white">
@@ -463,7 +731,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md col-sm-12 animate">
                 <div class="roadmap__item">
                     <p class="text-success">03 /</p>
                     <p class="text-white">
@@ -471,7 +739,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md col-sm-12 animate">
                 <div class="roadmap__item">
                     <p class="text-success">04 /</p>
                     <p class="text-white">
@@ -479,7 +747,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md col-sm-12 animate">
                 <div class="roadmap__item">
                     <p class="text-success">05 /</p>
                     <p class="text-white">
@@ -487,7 +755,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col col-md-3 col-sm-12 animate">
                 <div class="roadmap__item">
                     <p class="text-success">06 /</p>
                     <p class="text-white">
@@ -498,69 +766,214 @@
         </div>
     </div>
 </section>
-
-
-<section class="section section-communities">
+<section class="section section-bg section-communities" id="social">
     <div class="container">
-        <h2>Our communities</h2>
-        <h3>
+        <h2 data-aos="slide-up">Our communities</h2>
+        <h3 data-aos="flip-up">
             Support on every level of interaction. <br/>
             Contact us via email:
-            <a href="" class="link">
+            <a href="mailto:support@echostake.com" class="link">
                 support@echostake.com
             </a>
         </h3>
         <div class="soc__list">
-            <a class="soc__item">
+            <a class="soc__item animate" href="https://discord.gg/ndkr2NG">
                 <img src="./assets/img/soc-1.svg" alt="">
             </a>
-            <a class="soc__item">
+            <a class="soc__item animate">
                 <img src="./assets/img/soc-2.svg" alt="">
             </a>
-            <a class="soc__item">
+            <a class="soc__item animate">
                 <img src="./assets/img/soc-3.svg" alt="">
             </a>
-            <a class="soc__item">
+            <a class="soc__item animate" href="https://twitter.com/echostake/">
                 <img src="./assets/img/soc-4.svg" alt="">
+            </a>
+            <a class="soc__item animate">
+                <img src="./assets/img/soc-5.svg" alt="">
+            </a>
+            <a class="soc__item animate" href="https://github.com/echostake ">
+                <img src="./assets/img/soc-6.svg" alt="">
             </a>
         </div>
 
     </div>
 </section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-xs-6">
+                <img src="./assets/img/logo-transparent.svg" alt="">
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        Pages
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            Homepage
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#whatIsECHO" class="nav-link">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        Products
+                    </li>
+                    <li class="nav-item">
+                        <a href="#wallet" class="nav-link">
+                            Wallet
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mining" class="nav-link">
+                            Mining software
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#explorer" class="nav-link">
+                            Block explorer
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        Documents
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            Whitepaper
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            Instructions
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/T" class="nav-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        Community
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/echostake" class="nav-link">
+                            Github
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://discord.gg/ndkr2NG " class="nav-link">
+                            Discord
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            Bitcointalk
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            Reddit
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://twitter.com/echostake" class="nav-link">
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6 ">
+                <ul class="nav">
+                    <li class="nav-item">
+                        Links
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            Vacancies
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <p class="copyrigth">© 2019 Echostake</p>
+
+                </div>
+                <div class="col-8 text-right col-xs-12">
+                    <a href="">Terms of use</a>
+                    <a href="">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 <!--   Core JS Files   -->
 <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="./assets/js/plugins/bootstrap-switch.js"></script>
-<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-<!-- Chart JS -->
-<script src="./assets/js/plugins/chartjs.min.js"></script>
-<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="./assets/js/plugins/moment.min.js"></script>
-<script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-<!-- Black Dashboard DEMO methods, don't include it in your project! -->
-<script src="./assets/demo/demo.js"></script>
 <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
 <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
 <script>
+
     $(document).ready(function () {
-        blackKit.initDatePicker();
-        blackKit.initSliders();
+        $('a[href^="#"]').bind('click.smoothscroll', function (e) {
+            e.preventDefault();
+            var target = this.hash,
+                $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top - 75
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+
+
+        var $elements = $('.animate');
+        var $window = $(window);
+        $window.on('scroll', function (e) {
+            $elements.each(function (i, elem) { //loop through each element
+
+                if ($(this).hasClass('animate--done')) // check if already animated
+                    return;
+                animateMe($(this));
+            });
+        });
+
+        function animateMe(elem) {
+            var winTop = $(window).scrollTop() - 80; // calculate distance from top of window
+            var winBottom = winTop + $(window).height() - 80;
+            var elemTop = $(elem).offset().top; // element distance from top of page
+            var elemBottom = elemTop + $(elem).height();
+
+            if((winTop <= elemTop && winBottom >= elemTop) || (winTop <= elemBottom && winBottom >= elemBottom)) {
+                $(elem).addClass('animate--done');
+            }
+        }
+
+        AOS.init();
+
     });
 
-    function scrollToDownload() {
-
-        if ($('.section-communities').length != 0) {
-            $("html, body").animate({
-                scrollTop: $('.section-communities').offset().top
-            }, 1000);
-        }
-    }
 </script>
 </body>
 
