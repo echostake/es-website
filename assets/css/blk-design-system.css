@@ -15453,7 +15453,8 @@ p {
   padding-right: 55px; }
 
 .row-start img {
-  padding: 16px 0; }
+  padding: 16px 0;
+  height: 127px; }
 
 .row-start > div {
   padding-top: 18px; }
@@ -15741,6 +15742,13 @@ p {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     background-color: #fff; }
+
+svg {
+  max-width: 100%; }
+
+.svg-explorer path:not(.pJXFZasf_5) {
+  fill: none;
+  stroke: #0059FF; }
 
 div.animate, a.animate {
   -webkit-transform: translateY(-60px);

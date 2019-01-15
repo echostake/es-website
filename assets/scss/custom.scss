@@ -109,9 +109,9 @@ p {
 }
 
 .row-start {
-
   img {
     padding: 16px 0;
+    height: 127px;
   }
   & > div {
     padding-top: 18px;
@@ -440,5 +440,15 @@ p {
     position: relative;
     transform: rotate(90deg);
     background-color: #fff;
+  }
+}
+svg{
+
+  max-width: 100%;
+}
+.svg-explorer{
+  path:not(.pJXFZasf_5){
+    fill:none;
+    stroke:#0059FF;
   }
 }
