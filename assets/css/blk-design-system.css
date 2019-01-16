@@ -10666,7 +10666,7 @@ img {
 .navbar {
   padding: 0.9375rem;
   width: 100%;
-  z-index: 1050;
+  z-index: 9999999;
   background: #0059FF; }
   .navbar .photo {
     display: inline-block;
@@ -10701,7 +10701,7 @@ img {
     margin: 0; }
   .navbar.navbar-absolute {
     position: absolute;
-    z-index: 1050; }
+    z-index: 9999999; }
   .navbar.navbar-transparent {
     background: transparent !important;
     padding-top: 25px; }

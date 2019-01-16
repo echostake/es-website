@@ -1,7 +1,7 @@
 .navbar {
   padding: $navbar-padding-x;
   width: $full-width;
-  z-index: 1050;
+  z-index: 9999999;
   background: $primary;
 
   .photo {
@@ -46,7 +46,7 @@
 
   &.navbar-absolute{
     position: absolute;
-    z-index: 1050;
+    z-index: 9999999;
   }
 
 
