@@ -1,10 +1,10 @@
+Official website for Echostake project.
+
 ## Social Media:
 
 * Official website: <https://echostake.com>
 
 * Github: <https://bitbucket.org/echostake>
-
-* Bitbucket: <https://dribbble.com/creativetim>
 
 * Twitter: <https://twitter.com/echostake>
 
@@ -18,3 +18,5 @@
 [LICENSE]: ./LICENSE
 [version-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+
+Based on a theme from Creative Tim <https://github.com/creativetimofficial/blk-design-system>
