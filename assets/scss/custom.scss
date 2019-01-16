@@ -125,6 +125,8 @@ p {
   align-items: center;
   img {
     padding-right: 18px;
+    width: 40px;
+    box-sizing: content-box;
   }
   &.disabled {
     opacity: 0.4;
@@ -157,7 +159,14 @@ p {
   position: relative;
   bottom: -80px;
 }
-
+.page-header--title{
+  margin-bottom: 24px;
+}
+.table--scheme{
+  th:first-child, td:first-child{
+    text-align: left;
+  }
+}
 @media(max-width: 992px) {
   .bg-wallets {
     width: 304px;

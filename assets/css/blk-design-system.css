@@ -11458,7 +11458,7 @@ hr {
   text-transform: uppercase; }
 
 .table-responsive {
-  overflow: scroll;
+  overflow: auto;
   padding-bottom: 10px; }
 
 #tables .table-responsive {
@@ -15469,7 +15469,10 @@ p {
       -ms-flex-align: center;
           align-items: center; }
   .download-link img {
-    padding-right: 18px; }
+    padding-right: 18px;
+    width: 40px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box; }
   .download-link.disabled {
     opacity: 0.4;
     -webkit-user-select: none;
@@ -15496,6 +15499,12 @@ p {
   margin-left: 10%;
   position: relative;
   bottom: -80px; }
+
+.page-header--title {
+  margin-bottom: 24px; }
+
+.table--scheme th:first-child, .table--scheme td:first-child {
+  text-align: left; }
 
 @media (max-width: 992px) {
   .bg-wallets {
