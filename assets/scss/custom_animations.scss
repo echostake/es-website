@@ -4,8 +4,19 @@ div.animate, a.animate {
   opacity: 0;
   @for $i from 1 through 100 {
     &:nth-child(#{$i}) {
-      transition: all .5s ease #{$i*0.1}s;
+      transition: all .15s linear #{$i*0.1}s;
     }
+  }
+}
+
+div, a {
+  &.animate{
+    &.animate--zoom{
+      transform: scale(0);
+    }
+  }
+  &.animate--left-to-right{
+    transform: translateX(-60px);
   }
 }
 
@@ -14,16 +25,30 @@ table.animate tr {
   opacity: 0;
   @for $i from 1 through 100 {
     &:nth-child(#{$i}) {
-      transition: all .3s ease #{$i*0.05}s;
+      transition: all .3s linear #{$i*0.05}s;
     }
   }
 }
 
+
+
 div.animate--done, table.animate--done tr, a.animate--done {
   opacity: 1;
   transform: translateY(0);
+}
+div, a {
+  &.animate--done {
+    &.animate--zoom{
+      transform: scale(1);
+    }
+    &.animate--left-to-right{
+      transform: translateX(0);
+    }
+  }
 
 }
+
+
 
 svg.animate--done {
   @for $i from 1 through 55 {
