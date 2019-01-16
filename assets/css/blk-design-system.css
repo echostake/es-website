@@ -15871,626 +15871,626 @@ svg {
   stroke: #0059FF; }
 
 div.animate, a.animate {
-  -webkit-transform: translateY(-60px);
-          transform: translateY(-60px);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
   opacity: 0; }
   div.animate:nth-child(1), a.animate:nth-child(1) {
-    -webkit-transition: all 0.15s ease-in 0.1s;
-    transition: all 0.15s ease-in 0.1s; }
+    -webkit-transition: all 0.15s ease-out 0.1s;
+    transition: all 0.15s ease-out 0.1s; }
   div.animate:nth-child(2), a.animate:nth-child(2) {
-    -webkit-transition: all 0.15s ease-in 0.2s;
-    transition: all 0.15s ease-in 0.2s; }
+    -webkit-transition: all 0.15s ease-out 0.2s;
+    transition: all 0.15s ease-out 0.2s; }
   div.animate:nth-child(3), a.animate:nth-child(3) {
-    -webkit-transition: all 0.15s ease-in 0.3s;
-    transition: all 0.15s ease-in 0.3s; }
+    -webkit-transition: all 0.15s ease-out 0.3s;
+    transition: all 0.15s ease-out 0.3s; }
   div.animate:nth-child(4), a.animate:nth-child(4) {
-    -webkit-transition: all 0.15s ease-in 0.4s;
-    transition: all 0.15s ease-in 0.4s; }
+    -webkit-transition: all 0.15s ease-out 0.4s;
+    transition: all 0.15s ease-out 0.4s; }
   div.animate:nth-child(5), a.animate:nth-child(5) {
-    -webkit-transition: all 0.15s ease-in 0.5s;
-    transition: all 0.15s ease-in 0.5s; }
+    -webkit-transition: all 0.15s ease-out 0.5s;
+    transition: all 0.15s ease-out 0.5s; }
   div.animate:nth-child(6), a.animate:nth-child(6) {
-    -webkit-transition: all 0.15s ease-in 0.6s;
-    transition: all 0.15s ease-in 0.6s; }
+    -webkit-transition: all 0.15s ease-out 0.6s;
+    transition: all 0.15s ease-out 0.6s; }
   div.animate:nth-child(7), a.animate:nth-child(7) {
-    -webkit-transition: all 0.15s ease-in 0.7s;
-    transition: all 0.15s ease-in 0.7s; }
+    -webkit-transition: all 0.15s ease-out 0.7s;
+    transition: all 0.15s ease-out 0.7s; }
   div.animate:nth-child(8), a.animate:nth-child(8) {
-    -webkit-transition: all 0.15s ease-in 0.8s;
-    transition: all 0.15s ease-in 0.8s; }
+    -webkit-transition: all 0.15s ease-out 0.8s;
+    transition: all 0.15s ease-out 0.8s; }
   div.animate:nth-child(9), a.animate:nth-child(9) {
-    -webkit-transition: all 0.15s ease-in 0.9s;
-    transition: all 0.15s ease-in 0.9s; }
+    -webkit-transition: all 0.15s ease-out 0.9s;
+    transition: all 0.15s ease-out 0.9s; }
   div.animate:nth-child(10), a.animate:nth-child(10) {
-    -webkit-transition: all 0.15s ease-in 1s;
-    transition: all 0.15s ease-in 1s; }
+    -webkit-transition: all 0.15s ease-out 1s;
+    transition: all 0.15s ease-out 1s; }
   div.animate:nth-child(11), a.animate:nth-child(11) {
-    -webkit-transition: all 0.15s ease-in 1.1s;
-    transition: all 0.15s ease-in 1.1s; }
+    -webkit-transition: all 0.15s ease-out 1.1s;
+    transition: all 0.15s ease-out 1.1s; }
   div.animate:nth-child(12), a.animate:nth-child(12) {
-    -webkit-transition: all 0.15s ease-in 1.2s;
-    transition: all 0.15s ease-in 1.2s; }
+    -webkit-transition: all 0.15s ease-out 1.2s;
+    transition: all 0.15s ease-out 1.2s; }
   div.animate:nth-child(13), a.animate:nth-child(13) {
-    -webkit-transition: all 0.15s ease-in 1.3s;
-    transition: all 0.15s ease-in 1.3s; }
+    -webkit-transition: all 0.15s ease-out 1.3s;
+    transition: all 0.15s ease-out 1.3s; }
   div.animate:nth-child(14), a.animate:nth-child(14) {
-    -webkit-transition: all 0.15s ease-in 1.4s;
-    transition: all 0.15s ease-in 1.4s; }
+    -webkit-transition: all 0.15s ease-out 1.4s;
+    transition: all 0.15s ease-out 1.4s; }
   div.animate:nth-child(15), a.animate:nth-child(15) {
-    -webkit-transition: all 0.15s ease-in 1.5s;
-    transition: all 0.15s ease-in 1.5s; }
+    -webkit-transition: all 0.15s ease-out 1.5s;
+    transition: all 0.15s ease-out 1.5s; }
   div.animate:nth-child(16), a.animate:nth-child(16) {
-    -webkit-transition: all 0.15s ease-in 1.6s;
-    transition: all 0.15s ease-in 1.6s; }
+    -webkit-transition: all 0.15s ease-out 1.6s;
+    transition: all 0.15s ease-out 1.6s; }
   div.animate:nth-child(17), a.animate:nth-child(17) {
-    -webkit-transition: all 0.15s ease-in 1.7s;
-    transition: all 0.15s ease-in 1.7s; }
+    -webkit-transition: all 0.15s ease-out 1.7s;
+    transition: all 0.15s ease-out 1.7s; }
   div.animate:nth-child(18), a.animate:nth-child(18) {
-    -webkit-transition: all 0.15s ease-in 1.8s;
-    transition: all 0.15s ease-in 1.8s; }
+    -webkit-transition: all 0.15s ease-out 1.8s;
+    transition: all 0.15s ease-out 1.8s; }
   div.animate:nth-child(19), a.animate:nth-child(19) {
-    -webkit-transition: all 0.15s ease-in 1.9s;
-    transition: all 0.15s ease-in 1.9s; }
+    -webkit-transition: all 0.15s ease-out 1.9s;
+    transition: all 0.15s ease-out 1.9s; }
   div.animate:nth-child(20), a.animate:nth-child(20) {
-    -webkit-transition: all 0.15s ease-in 2s;
-    transition: all 0.15s ease-in 2s; }
+    -webkit-transition: all 0.15s ease-out 2s;
+    transition: all 0.15s ease-out 2s; }
   div.animate:nth-child(21), a.animate:nth-child(21) {
-    -webkit-transition: all 0.15s ease-in 2.1s;
-    transition: all 0.15s ease-in 2.1s; }
+    -webkit-transition: all 0.15s ease-out 2.1s;
+    transition: all 0.15s ease-out 2.1s; }
   div.animate:nth-child(22), a.animate:nth-child(22) {
-    -webkit-transition: all 0.15s ease-in 2.2s;
-    transition: all 0.15s ease-in 2.2s; }
+    -webkit-transition: all 0.15s ease-out 2.2s;
+    transition: all 0.15s ease-out 2.2s; }
   div.animate:nth-child(23), a.animate:nth-child(23) {
-    -webkit-transition: all 0.15s ease-in 2.3s;
-    transition: all 0.15s ease-in 2.3s; }
+    -webkit-transition: all 0.15s ease-out 2.3s;
+    transition: all 0.15s ease-out 2.3s; }
   div.animate:nth-child(24), a.animate:nth-child(24) {
-    -webkit-transition: all 0.15s ease-in 2.4s;
-    transition: all 0.15s ease-in 2.4s; }
+    -webkit-transition: all 0.15s ease-out 2.4s;
+    transition: all 0.15s ease-out 2.4s; }
   div.animate:nth-child(25), a.animate:nth-child(25) {
-    -webkit-transition: all 0.15s ease-in 2.5s;
-    transition: all 0.15s ease-in 2.5s; }
+    -webkit-transition: all 0.15s ease-out 2.5s;
+    transition: all 0.15s ease-out 2.5s; }
   div.animate:nth-child(26), a.animate:nth-child(26) {
-    -webkit-transition: all 0.15s ease-in 2.6s;
-    transition: all 0.15s ease-in 2.6s; }
+    -webkit-transition: all 0.15s ease-out 2.6s;
+    transition: all 0.15s ease-out 2.6s; }
   div.animate:nth-child(27), a.animate:nth-child(27) {
-    -webkit-transition: all 0.15s ease-in 2.7s;
-    transition: all 0.15s ease-in 2.7s; }
+    -webkit-transition: all 0.15s ease-out 2.7s;
+    transition: all 0.15s ease-out 2.7s; }
   div.animate:nth-child(28), a.animate:nth-child(28) {
-    -webkit-transition: all 0.15s ease-in 2.8s;
-    transition: all 0.15s ease-in 2.8s; }
+    -webkit-transition: all 0.15s ease-out 2.8s;
+    transition: all 0.15s ease-out 2.8s; }
   div.animate:nth-child(29), a.animate:nth-child(29) {
-    -webkit-transition: all 0.15s ease-in 2.9s;
-    transition: all 0.15s ease-in 2.9s; }
+    -webkit-transition: all 0.15s ease-out 2.9s;
+    transition: all 0.15s ease-out 2.9s; }
   div.animate:nth-child(30), a.animate:nth-child(30) {
-    -webkit-transition: all 0.15s ease-in 3s;
-    transition: all 0.15s ease-in 3s; }
+    -webkit-transition: all 0.15s ease-out 3s;
+    transition: all 0.15s ease-out 3s; }
   div.animate:nth-child(31), a.animate:nth-child(31) {
-    -webkit-transition: all 0.15s ease-in 3.1s;
-    transition: all 0.15s ease-in 3.1s; }
+    -webkit-transition: all 0.15s ease-out 3.1s;
+    transition: all 0.15s ease-out 3.1s; }
   div.animate:nth-child(32), a.animate:nth-child(32) {
-    -webkit-transition: all 0.15s ease-in 3.2s;
-    transition: all 0.15s ease-in 3.2s; }
+    -webkit-transition: all 0.15s ease-out 3.2s;
+    transition: all 0.15s ease-out 3.2s; }
   div.animate:nth-child(33), a.animate:nth-child(33) {
-    -webkit-transition: all 0.15s ease-in 3.3s;
-    transition: all 0.15s ease-in 3.3s; }
+    -webkit-transition: all 0.15s ease-out 3.3s;
+    transition: all 0.15s ease-out 3.3s; }
   div.animate:nth-child(34), a.animate:nth-child(34) {
-    -webkit-transition: all 0.15s ease-in 3.4s;
-    transition: all 0.15s ease-in 3.4s; }
+    -webkit-transition: all 0.15s ease-out 3.4s;
+    transition: all 0.15s ease-out 3.4s; }
   div.animate:nth-child(35), a.animate:nth-child(35) {
-    -webkit-transition: all 0.15s ease-in 3.5s;
-    transition: all 0.15s ease-in 3.5s; }
+    -webkit-transition: all 0.15s ease-out 3.5s;
+    transition: all 0.15s ease-out 3.5s; }
   div.animate:nth-child(36), a.animate:nth-child(36) {
-    -webkit-transition: all 0.15s ease-in 3.6s;
-    transition: all 0.15s ease-in 3.6s; }
+    -webkit-transition: all 0.15s ease-out 3.6s;
+    transition: all 0.15s ease-out 3.6s; }
   div.animate:nth-child(37), a.animate:nth-child(37) {
-    -webkit-transition: all 0.15s ease-in 3.7s;
-    transition: all 0.15s ease-in 3.7s; }
+    -webkit-transition: all 0.15s ease-out 3.7s;
+    transition: all 0.15s ease-out 3.7s; }
   div.animate:nth-child(38), a.animate:nth-child(38) {
-    -webkit-transition: all 0.15s ease-in 3.8s;
-    transition: all 0.15s ease-in 3.8s; }
+    -webkit-transition: all 0.15s ease-out 3.8s;
+    transition: all 0.15s ease-out 3.8s; }
   div.animate:nth-child(39), a.animate:nth-child(39) {
-    -webkit-transition: all 0.15s ease-in 3.9s;
-    transition: all 0.15s ease-in 3.9s; }
+    -webkit-transition: all 0.15s ease-out 3.9s;
+    transition: all 0.15s ease-out 3.9s; }
   div.animate:nth-child(40), a.animate:nth-child(40) {
-    -webkit-transition: all 0.15s ease-in 4s;
-    transition: all 0.15s ease-in 4s; }
+    -webkit-transition: all 0.15s ease-out 4s;
+    transition: all 0.15s ease-out 4s; }
   div.animate:nth-child(41), a.animate:nth-child(41) {
-    -webkit-transition: all 0.15s ease-in 4.1s;
-    transition: all 0.15s ease-in 4.1s; }
+    -webkit-transition: all 0.15s ease-out 4.1s;
+    transition: all 0.15s ease-out 4.1s; }
   div.animate:nth-child(42), a.animate:nth-child(42) {
-    -webkit-transition: all 0.15s ease-in 4.2s;
-    transition: all 0.15s ease-in 4.2s; }
+    -webkit-transition: all 0.15s ease-out 4.2s;
+    transition: all 0.15s ease-out 4.2s; }
   div.animate:nth-child(43), a.animate:nth-child(43) {
-    -webkit-transition: all 0.15s ease-in 4.3s;
-    transition: all 0.15s ease-in 4.3s; }
+    -webkit-transition: all 0.15s ease-out 4.3s;
+    transition: all 0.15s ease-out 4.3s; }
   div.animate:nth-child(44), a.animate:nth-child(44) {
-    -webkit-transition: all 0.15s ease-in 4.4s;
-    transition: all 0.15s ease-in 4.4s; }
+    -webkit-transition: all 0.15s ease-out 4.4s;
+    transition: all 0.15s ease-out 4.4s; }
   div.animate:nth-child(45), a.animate:nth-child(45) {
-    -webkit-transition: all 0.15s ease-in 4.5s;
-    transition: all 0.15s ease-in 4.5s; }
+    -webkit-transition: all 0.15s ease-out 4.5s;
+    transition: all 0.15s ease-out 4.5s; }
   div.animate:nth-child(46), a.animate:nth-child(46) {
-    -webkit-transition: all 0.15s ease-in 4.6s;
-    transition: all 0.15s ease-in 4.6s; }
+    -webkit-transition: all 0.15s ease-out 4.6s;
+    transition: all 0.15s ease-out 4.6s; }
   div.animate:nth-child(47), a.animate:nth-child(47) {
-    -webkit-transition: all 0.15s ease-in 4.7s;
-    transition: all 0.15s ease-in 4.7s; }
+    -webkit-transition: all 0.15s ease-out 4.7s;
+    transition: all 0.15s ease-out 4.7s; }
   div.animate:nth-child(48), a.animate:nth-child(48) {
-    -webkit-transition: all 0.15s ease-in 4.8s;
-    transition: all 0.15s ease-in 4.8s; }
+    -webkit-transition: all 0.15s ease-out 4.8s;
+    transition: all 0.15s ease-out 4.8s; }
   div.animate:nth-child(49), a.animate:nth-child(49) {
-    -webkit-transition: all 0.15s ease-in 4.9s;
-    transition: all 0.15s ease-in 4.9s; }
+    -webkit-transition: all 0.15s ease-out 4.9s;
+    transition: all 0.15s ease-out 4.9s; }
   div.animate:nth-child(50), a.animate:nth-child(50) {
-    -webkit-transition: all 0.15s ease-in 5s;
-    transition: all 0.15s ease-in 5s; }
+    -webkit-transition: all 0.15s ease-out 5s;
+    transition: all 0.15s ease-out 5s; }
   div.animate:nth-child(51), a.animate:nth-child(51) {
-    -webkit-transition: all 0.15s ease-in 5.1s;
-    transition: all 0.15s ease-in 5.1s; }
+    -webkit-transition: all 0.15s ease-out 5.1s;
+    transition: all 0.15s ease-out 5.1s; }
   div.animate:nth-child(52), a.animate:nth-child(52) {
-    -webkit-transition: all 0.15s ease-in 5.2s;
-    transition: all 0.15s ease-in 5.2s; }
+    -webkit-transition: all 0.15s ease-out 5.2s;
+    transition: all 0.15s ease-out 5.2s; }
   div.animate:nth-child(53), a.animate:nth-child(53) {
-    -webkit-transition: all 0.15s ease-in 5.3s;
-    transition: all 0.15s ease-in 5.3s; }
+    -webkit-transition: all 0.15s ease-out 5.3s;
+    transition: all 0.15s ease-out 5.3s; }
   div.animate:nth-child(54), a.animate:nth-child(54) {
-    -webkit-transition: all 0.15s ease-in 5.4s;
-    transition: all 0.15s ease-in 5.4s; }
+    -webkit-transition: all 0.15s ease-out 5.4s;
+    transition: all 0.15s ease-out 5.4s; }
   div.animate:nth-child(55), a.animate:nth-child(55) {
-    -webkit-transition: all 0.15s ease-in 5.5s;
-    transition: all 0.15s ease-in 5.5s; }
+    -webkit-transition: all 0.15s ease-out 5.5s;
+    transition: all 0.15s ease-out 5.5s; }
   div.animate:nth-child(56), a.animate:nth-child(56) {
-    -webkit-transition: all 0.15s ease-in 5.6s;
-    transition: all 0.15s ease-in 5.6s; }
+    -webkit-transition: all 0.15s ease-out 5.6s;
+    transition: all 0.15s ease-out 5.6s; }
   div.animate:nth-child(57), a.animate:nth-child(57) {
-    -webkit-transition: all 0.15s ease-in 5.7s;
-    transition: all 0.15s ease-in 5.7s; }
+    -webkit-transition: all 0.15s ease-out 5.7s;
+    transition: all 0.15s ease-out 5.7s; }
   div.animate:nth-child(58), a.animate:nth-child(58) {
-    -webkit-transition: all 0.15s ease-in 5.8s;
-    transition: all 0.15s ease-in 5.8s; }
+    -webkit-transition: all 0.15s ease-out 5.8s;
+    transition: all 0.15s ease-out 5.8s; }
   div.animate:nth-child(59), a.animate:nth-child(59) {
-    -webkit-transition: all 0.15s ease-in 5.9s;
-    transition: all 0.15s ease-in 5.9s; }
+    -webkit-transition: all 0.15s ease-out 5.9s;
+    transition: all 0.15s ease-out 5.9s; }
   div.animate:nth-child(60), a.animate:nth-child(60) {
-    -webkit-transition: all 0.15s ease-in 6s;
-    transition: all 0.15s ease-in 6s; }
+    -webkit-transition: all 0.15s ease-out 6s;
+    transition: all 0.15s ease-out 6s; }
   div.animate:nth-child(61), a.animate:nth-child(61) {
-    -webkit-transition: all 0.15s ease-in 6.1s;
-    transition: all 0.15s ease-in 6.1s; }
+    -webkit-transition: all 0.15s ease-out 6.1s;
+    transition: all 0.15s ease-out 6.1s; }
   div.animate:nth-child(62), a.animate:nth-child(62) {
-    -webkit-transition: all 0.15s ease-in 6.2s;
-    transition: all 0.15s ease-in 6.2s; }
+    -webkit-transition: all 0.15s ease-out 6.2s;
+    transition: all 0.15s ease-out 6.2s; }
   div.animate:nth-child(63), a.animate:nth-child(63) {
-    -webkit-transition: all 0.15s ease-in 6.3s;
-    transition: all 0.15s ease-in 6.3s; }
+    -webkit-transition: all 0.15s ease-out 6.3s;
+    transition: all 0.15s ease-out 6.3s; }
   div.animate:nth-child(64), a.animate:nth-child(64) {
-    -webkit-transition: all 0.15s ease-in 6.4s;
-    transition: all 0.15s ease-in 6.4s; }
+    -webkit-transition: all 0.15s ease-out 6.4s;
+    transition: all 0.15s ease-out 6.4s; }
   div.animate:nth-child(65), a.animate:nth-child(65) {
-    -webkit-transition: all 0.15s ease-in 6.5s;
-    transition: all 0.15s ease-in 6.5s; }
+    -webkit-transition: all 0.15s ease-out 6.5s;
+    transition: all 0.15s ease-out 6.5s; }
   div.animate:nth-child(66), a.animate:nth-child(66) {
-    -webkit-transition: all 0.15s ease-in 6.6s;
-    transition: all 0.15s ease-in 6.6s; }
+    -webkit-transition: all 0.15s ease-out 6.6s;
+    transition: all 0.15s ease-out 6.6s; }
   div.animate:nth-child(67), a.animate:nth-child(67) {
-    -webkit-transition: all 0.15s ease-in 6.7s;
-    transition: all 0.15s ease-in 6.7s; }
+    -webkit-transition: all 0.15s ease-out 6.7s;
+    transition: all 0.15s ease-out 6.7s; }
   div.animate:nth-child(68), a.animate:nth-child(68) {
-    -webkit-transition: all 0.15s ease-in 6.8s;
-    transition: all 0.15s ease-in 6.8s; }
+    -webkit-transition: all 0.15s ease-out 6.8s;
+    transition: all 0.15s ease-out 6.8s; }
   div.animate:nth-child(69), a.animate:nth-child(69) {
-    -webkit-transition: all 0.15s ease-in 6.9s;
-    transition: all 0.15s ease-in 6.9s; }
+    -webkit-transition: all 0.15s ease-out 6.9s;
+    transition: all 0.15s ease-out 6.9s; }
   div.animate:nth-child(70), a.animate:nth-child(70) {
-    -webkit-transition: all 0.15s ease-in 7s;
-    transition: all 0.15s ease-in 7s; }
+    -webkit-transition: all 0.15s ease-out 7s;
+    transition: all 0.15s ease-out 7s; }
   div.animate:nth-child(71), a.animate:nth-child(71) {
-    -webkit-transition: all 0.15s ease-in 7.1s;
-    transition: all 0.15s ease-in 7.1s; }
+    -webkit-transition: all 0.15s ease-out 7.1s;
+    transition: all 0.15s ease-out 7.1s; }
   div.animate:nth-child(72), a.animate:nth-child(72) {
-    -webkit-transition: all 0.15s ease-in 7.2s;
-    transition: all 0.15s ease-in 7.2s; }
+    -webkit-transition: all 0.15s ease-out 7.2s;
+    transition: all 0.15s ease-out 7.2s; }
   div.animate:nth-child(73), a.animate:nth-child(73) {
-    -webkit-transition: all 0.15s ease-in 7.3s;
-    transition: all 0.15s ease-in 7.3s; }
+    -webkit-transition: all 0.15s ease-out 7.3s;
+    transition: all 0.15s ease-out 7.3s; }
   div.animate:nth-child(74), a.animate:nth-child(74) {
-    -webkit-transition: all 0.15s ease-in 7.4s;
-    transition: all 0.15s ease-in 7.4s; }
+    -webkit-transition: all 0.15s ease-out 7.4s;
+    transition: all 0.15s ease-out 7.4s; }
   div.animate:nth-child(75), a.animate:nth-child(75) {
-    -webkit-transition: all 0.15s ease-in 7.5s;
-    transition: all 0.15s ease-in 7.5s; }
+    -webkit-transition: all 0.15s ease-out 7.5s;
+    transition: all 0.15s ease-out 7.5s; }
   div.animate:nth-child(76), a.animate:nth-child(76) {
-    -webkit-transition: all 0.15s ease-in 7.6s;
-    transition: all 0.15s ease-in 7.6s; }
+    -webkit-transition: all 0.15s ease-out 7.6s;
+    transition: all 0.15s ease-out 7.6s; }
   div.animate:nth-child(77), a.animate:nth-child(77) {
-    -webkit-transition: all 0.15s ease-in 7.7s;
-    transition: all 0.15s ease-in 7.7s; }
+    -webkit-transition: all 0.15s ease-out 7.7s;
+    transition: all 0.15s ease-out 7.7s; }
   div.animate:nth-child(78), a.animate:nth-child(78) {
-    -webkit-transition: all 0.15s ease-in 7.8s;
-    transition: all 0.15s ease-in 7.8s; }
+    -webkit-transition: all 0.15s ease-out 7.8s;
+    transition: all 0.15s ease-out 7.8s; }
   div.animate:nth-child(79), a.animate:nth-child(79) {
-    -webkit-transition: all 0.15s ease-in 7.9s;
-    transition: all 0.15s ease-in 7.9s; }
+    -webkit-transition: all 0.15s ease-out 7.9s;
+    transition: all 0.15s ease-out 7.9s; }
   div.animate:nth-child(80), a.animate:nth-child(80) {
-    -webkit-transition: all 0.15s ease-in 8s;
-    transition: all 0.15s ease-in 8s; }
+    -webkit-transition: all 0.15s ease-out 8s;
+    transition: all 0.15s ease-out 8s; }
   div.animate:nth-child(81), a.animate:nth-child(81) {
-    -webkit-transition: all 0.15s ease-in 8.1s;
-    transition: all 0.15s ease-in 8.1s; }
+    -webkit-transition: all 0.15s ease-out 8.1s;
+    transition: all 0.15s ease-out 8.1s; }
   div.animate:nth-child(82), a.animate:nth-child(82) {
-    -webkit-transition: all 0.15s ease-in 8.2s;
-    transition: all 0.15s ease-in 8.2s; }
+    -webkit-transition: all 0.15s ease-out 8.2s;
+    transition: all 0.15s ease-out 8.2s; }
   div.animate:nth-child(83), a.animate:nth-child(83) {
-    -webkit-transition: all 0.15s ease-in 8.3s;
-    transition: all 0.15s ease-in 8.3s; }
+    -webkit-transition: all 0.15s ease-out 8.3s;
+    transition: all 0.15s ease-out 8.3s; }
   div.animate:nth-child(84), a.animate:nth-child(84) {
-    -webkit-transition: all 0.15s ease-in 8.4s;
-    transition: all 0.15s ease-in 8.4s; }
+    -webkit-transition: all 0.15s ease-out 8.4s;
+    transition: all 0.15s ease-out 8.4s; }
   div.animate:nth-child(85), a.animate:nth-child(85) {
-    -webkit-transition: all 0.15s ease-in 8.5s;
-    transition: all 0.15s ease-in 8.5s; }
+    -webkit-transition: all 0.15s ease-out 8.5s;
+    transition: all 0.15s ease-out 8.5s; }
   div.animate:nth-child(86), a.animate:nth-child(86) {
-    -webkit-transition: all 0.15s ease-in 8.6s;
-    transition: all 0.15s ease-in 8.6s; }
+    -webkit-transition: all 0.15s ease-out 8.6s;
+    transition: all 0.15s ease-out 8.6s; }
   div.animate:nth-child(87), a.animate:nth-child(87) {
-    -webkit-transition: all 0.15s ease-in 8.7s;
-    transition: all 0.15s ease-in 8.7s; }
+    -webkit-transition: all 0.15s ease-out 8.7s;
+    transition: all 0.15s ease-out 8.7s; }
   div.animate:nth-child(88), a.animate:nth-child(88) {
-    -webkit-transition: all 0.15s ease-in 8.8s;
-    transition: all 0.15s ease-in 8.8s; }
+    -webkit-transition: all 0.15s ease-out 8.8s;
+    transition: all 0.15s ease-out 8.8s; }
   div.animate:nth-child(89), a.animate:nth-child(89) {
-    -webkit-transition: all 0.15s ease-in 8.9s;
-    transition: all 0.15s ease-in 8.9s; }
+    -webkit-transition: all 0.15s ease-out 8.9s;
+    transition: all 0.15s ease-out 8.9s; }
   div.animate:nth-child(90), a.animate:nth-child(90) {
-    -webkit-transition: all 0.15s ease-in 9s;
-    transition: all 0.15s ease-in 9s; }
+    -webkit-transition: all 0.15s ease-out 9s;
+    transition: all 0.15s ease-out 9s; }
   div.animate:nth-child(91), a.animate:nth-child(91) {
-    -webkit-transition: all 0.15s ease-in 9.1s;
-    transition: all 0.15s ease-in 9.1s; }
+    -webkit-transition: all 0.15s ease-out 9.1s;
+    transition: all 0.15s ease-out 9.1s; }
   div.animate:nth-child(92), a.animate:nth-child(92) {
-    -webkit-transition: all 0.15s ease-in 9.2s;
-    transition: all 0.15s ease-in 9.2s; }
+    -webkit-transition: all 0.15s ease-out 9.2s;
+    transition: all 0.15s ease-out 9.2s; }
   div.animate:nth-child(93), a.animate:nth-child(93) {
-    -webkit-transition: all 0.15s ease-in 9.3s;
-    transition: all 0.15s ease-in 9.3s; }
+    -webkit-transition: all 0.15s ease-out 9.3s;
+    transition: all 0.15s ease-out 9.3s; }
   div.animate:nth-child(94), a.animate:nth-child(94) {
-    -webkit-transition: all 0.15s ease-in 9.4s;
-    transition: all 0.15s ease-in 9.4s; }
+    -webkit-transition: all 0.15s ease-out 9.4s;
+    transition: all 0.15s ease-out 9.4s; }
   div.animate:nth-child(95), a.animate:nth-child(95) {
-    -webkit-transition: all 0.15s ease-in 9.5s;
-    transition: all 0.15s ease-in 9.5s; }
+    -webkit-transition: all 0.15s ease-out 9.5s;
+    transition: all 0.15s ease-out 9.5s; }
   div.animate:nth-child(96), a.animate:nth-child(96) {
-    -webkit-transition: all 0.15s ease-in 9.6s;
-    transition: all 0.15s ease-in 9.6s; }
+    -webkit-transition: all 0.15s ease-out 9.6s;
+    transition: all 0.15s ease-out 9.6s; }
   div.animate:nth-child(97), a.animate:nth-child(97) {
-    -webkit-transition: all 0.15s ease-in 9.7s;
-    transition: all 0.15s ease-in 9.7s; }
+    -webkit-transition: all 0.15s ease-out 9.7s;
+    transition: all 0.15s ease-out 9.7s; }
   div.animate:nth-child(98), a.animate:nth-child(98) {
-    -webkit-transition: all 0.15s ease-in 9.8s;
-    transition: all 0.15s ease-in 9.8s; }
+    -webkit-transition: all 0.15s ease-out 9.8s;
+    transition: all 0.15s ease-out 9.8s; }
   div.animate:nth-child(99), a.animate:nth-child(99) {
-    -webkit-transition: all 0.15s ease-in 9.9s;
-    transition: all 0.15s ease-in 9.9s; }
+    -webkit-transition: all 0.15s ease-out 9.9s;
+    transition: all 0.15s ease-out 9.9s; }
   div.animate:nth-child(100), a.animate:nth-child(100) {
-    -webkit-transition: all 0.15s ease-in 10s;
-    transition: all 0.15s ease-in 10s; }
+    -webkit-transition: all 0.15s ease-out 10s;
+    transition: all 0.15s ease-out 10s; }
 
 div.animate.animate--zoom, a.animate.animate--zoom {
   -webkit-transform: scale(0);
           transform: scale(0); }
 
 div.animate--left-to-right, a.animate--left-to-right {
-  -webkit-transform: translateX(-60px);
-          transform: translateX(-60px); }
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px); }
 
 div.animate--right-to-left, a.animate--right-to-left {
-  -webkit-transform: translateX(60px);
-          transform: translateX(60px); }
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px); }
 
 table.animate tr {
-  -webkit-transform: translateY(-60px);
-          transform: translateY(-60px);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
   opacity: 0; }
   table.animate tr:nth-child(1) {
-    -webkit-transition: all 0.3s ease-in 0.05s;
-    transition: all 0.3s ease-in 0.05s; }
+    -webkit-transition: all 0.3s ease-out 0.05s;
+    transition: all 0.3s ease-out 0.05s; }
   table.animate tr:nth-child(2) {
-    -webkit-transition: all 0.3s ease-in 0.1s;
-    transition: all 0.3s ease-in 0.1s; }
+    -webkit-transition: all 0.3s ease-out 0.1s;
+    transition: all 0.3s ease-out 0.1s; }
   table.animate tr:nth-child(3) {
-    -webkit-transition: all 0.3s ease-in 0.15s;
-    transition: all 0.3s ease-in 0.15s; }
+    -webkit-transition: all 0.3s ease-out 0.15s;
+    transition: all 0.3s ease-out 0.15s; }
   table.animate tr:nth-child(4) {
-    -webkit-transition: all 0.3s ease-in 0.2s;
-    transition: all 0.3s ease-in 0.2s; }
+    -webkit-transition: all 0.3s ease-out 0.2s;
+    transition: all 0.3s ease-out 0.2s; }
   table.animate tr:nth-child(5) {
-    -webkit-transition: all 0.3s ease-in 0.25s;
-    transition: all 0.3s ease-in 0.25s; }
+    -webkit-transition: all 0.3s ease-out 0.25s;
+    transition: all 0.3s ease-out 0.25s; }
   table.animate tr:nth-child(6) {
-    -webkit-transition: all 0.3s ease-in 0.3s;
-    transition: all 0.3s ease-in 0.3s; }
+    -webkit-transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-out 0.3s; }
   table.animate tr:nth-child(7) {
-    -webkit-transition: all 0.3s ease-in 0.35s;
-    transition: all 0.3s ease-in 0.35s; }
+    -webkit-transition: all 0.3s ease-out 0.35s;
+    transition: all 0.3s ease-out 0.35s; }
   table.animate tr:nth-child(8) {
-    -webkit-transition: all 0.3s ease-in 0.4s;
-    transition: all 0.3s ease-in 0.4s; }
+    -webkit-transition: all 0.3s ease-out 0.4s;
+    transition: all 0.3s ease-out 0.4s; }
   table.animate tr:nth-child(9) {
-    -webkit-transition: all 0.3s ease-in 0.45s;
-    transition: all 0.3s ease-in 0.45s; }
+    -webkit-transition: all 0.3s ease-out 0.45s;
+    transition: all 0.3s ease-out 0.45s; }
   table.animate tr:nth-child(10) {
-    -webkit-transition: all 0.3s ease-in 0.5s;
-    transition: all 0.3s ease-in 0.5s; }
+    -webkit-transition: all 0.3s ease-out 0.5s;
+    transition: all 0.3s ease-out 0.5s; }
   table.animate tr:nth-child(11) {
-    -webkit-transition: all 0.3s ease-in 0.55s;
-    transition: all 0.3s ease-in 0.55s; }
+    -webkit-transition: all 0.3s ease-out 0.55s;
+    transition: all 0.3s ease-out 0.55s; }
   table.animate tr:nth-child(12) {
-    -webkit-transition: all 0.3s ease-in 0.6s;
-    transition: all 0.3s ease-in 0.6s; }
+    -webkit-transition: all 0.3s ease-out 0.6s;
+    transition: all 0.3s ease-out 0.6s; }
   table.animate tr:nth-child(13) {
-    -webkit-transition: all 0.3s ease-in 0.65s;
-    transition: all 0.3s ease-in 0.65s; }
+    -webkit-transition: all 0.3s ease-out 0.65s;
+    transition: all 0.3s ease-out 0.65s; }
   table.animate tr:nth-child(14) {
-    -webkit-transition: all 0.3s ease-in 0.7s;
-    transition: all 0.3s ease-in 0.7s; }
+    -webkit-transition: all 0.3s ease-out 0.7s;
+    transition: all 0.3s ease-out 0.7s; }
   table.animate tr:nth-child(15) {
-    -webkit-transition: all 0.3s ease-in 0.75s;
-    transition: all 0.3s ease-in 0.75s; }
+    -webkit-transition: all 0.3s ease-out 0.75s;
+    transition: all 0.3s ease-out 0.75s; }
   table.animate tr:nth-child(16) {
-    -webkit-transition: all 0.3s ease-in 0.8s;
-    transition: all 0.3s ease-in 0.8s; }
+    -webkit-transition: all 0.3s ease-out 0.8s;
+    transition: all 0.3s ease-out 0.8s; }
   table.animate tr:nth-child(17) {
-    -webkit-transition: all 0.3s ease-in 0.85s;
-    transition: all 0.3s ease-in 0.85s; }
+    -webkit-transition: all 0.3s ease-out 0.85s;
+    transition: all 0.3s ease-out 0.85s; }
   table.animate tr:nth-child(18) {
-    -webkit-transition: all 0.3s ease-in 0.9s;
-    transition: all 0.3s ease-in 0.9s; }
+    -webkit-transition: all 0.3s ease-out 0.9s;
+    transition: all 0.3s ease-out 0.9s; }
   table.animate tr:nth-child(19) {
-    -webkit-transition: all 0.3s ease-in 0.95s;
-    transition: all 0.3s ease-in 0.95s; }
+    -webkit-transition: all 0.3s ease-out 0.95s;
+    transition: all 0.3s ease-out 0.95s; }
   table.animate tr:nth-child(20) {
-    -webkit-transition: all 0.3s ease-in 1s;
-    transition: all 0.3s ease-in 1s; }
+    -webkit-transition: all 0.3s ease-out 1s;
+    transition: all 0.3s ease-out 1s; }
   table.animate tr:nth-child(21) {
-    -webkit-transition: all 0.3s ease-in 1.05s;
-    transition: all 0.3s ease-in 1.05s; }
+    -webkit-transition: all 0.3s ease-out 1.05s;
+    transition: all 0.3s ease-out 1.05s; }
   table.animate tr:nth-child(22) {
-    -webkit-transition: all 0.3s ease-in 1.1s;
-    transition: all 0.3s ease-in 1.1s; }
+    -webkit-transition: all 0.3s ease-out 1.1s;
+    transition: all 0.3s ease-out 1.1s; }
   table.animate tr:nth-child(23) {
-    -webkit-transition: all 0.3s ease-in 1.15s;
-    transition: all 0.3s ease-in 1.15s; }
+    -webkit-transition: all 0.3s ease-out 1.15s;
+    transition: all 0.3s ease-out 1.15s; }
   table.animate tr:nth-child(24) {
-    -webkit-transition: all 0.3s ease-in 1.2s;
-    transition: all 0.3s ease-in 1.2s; }
+    -webkit-transition: all 0.3s ease-out 1.2s;
+    transition: all 0.3s ease-out 1.2s; }
   table.animate tr:nth-child(25) {
-    -webkit-transition: all 0.3s ease-in 1.25s;
-    transition: all 0.3s ease-in 1.25s; }
+    -webkit-transition: all 0.3s ease-out 1.25s;
+    transition: all 0.3s ease-out 1.25s; }
   table.animate tr:nth-child(26) {
-    -webkit-transition: all 0.3s ease-in 1.3s;
-    transition: all 0.3s ease-in 1.3s; }
+    -webkit-transition: all 0.3s ease-out 1.3s;
+    transition: all 0.3s ease-out 1.3s; }
   table.animate tr:nth-child(27) {
-    -webkit-transition: all 0.3s ease-in 1.35s;
-    transition: all 0.3s ease-in 1.35s; }
+    -webkit-transition: all 0.3s ease-out 1.35s;
+    transition: all 0.3s ease-out 1.35s; }
   table.animate tr:nth-child(28) {
-    -webkit-transition: all 0.3s ease-in 1.4s;
-    transition: all 0.3s ease-in 1.4s; }
+    -webkit-transition: all 0.3s ease-out 1.4s;
+    transition: all 0.3s ease-out 1.4s; }
   table.animate tr:nth-child(29) {
-    -webkit-transition: all 0.3s ease-in 1.45s;
-    transition: all 0.3s ease-in 1.45s; }
+    -webkit-transition: all 0.3s ease-out 1.45s;
+    transition: all 0.3s ease-out 1.45s; }
   table.animate tr:nth-child(30) {
-    -webkit-transition: all 0.3s ease-in 1.5s;
-    transition: all 0.3s ease-in 1.5s; }
+    -webkit-transition: all 0.3s ease-out 1.5s;
+    transition: all 0.3s ease-out 1.5s; }
   table.animate tr:nth-child(31) {
-    -webkit-transition: all 0.3s ease-in 1.55s;
-    transition: all 0.3s ease-in 1.55s; }
+    -webkit-transition: all 0.3s ease-out 1.55s;
+    transition: all 0.3s ease-out 1.55s; }
   table.animate tr:nth-child(32) {
-    -webkit-transition: all 0.3s ease-in 1.6s;
-    transition: all 0.3s ease-in 1.6s; }
+    -webkit-transition: all 0.3s ease-out 1.6s;
+    transition: all 0.3s ease-out 1.6s; }
   table.animate tr:nth-child(33) {
-    -webkit-transition: all 0.3s ease-in 1.65s;
-    transition: all 0.3s ease-in 1.65s; }
+    -webkit-transition: all 0.3s ease-out 1.65s;
+    transition: all 0.3s ease-out 1.65s; }
   table.animate tr:nth-child(34) {
-    -webkit-transition: all 0.3s ease-in 1.7s;
-    transition: all 0.3s ease-in 1.7s; }
+    -webkit-transition: all 0.3s ease-out 1.7s;
+    transition: all 0.3s ease-out 1.7s; }
   table.animate tr:nth-child(35) {
-    -webkit-transition: all 0.3s ease-in 1.75s;
-    transition: all 0.3s ease-in 1.75s; }
+    -webkit-transition: all 0.3s ease-out 1.75s;
+    transition: all 0.3s ease-out 1.75s; }
   table.animate tr:nth-child(36) {
-    -webkit-transition: all 0.3s ease-in 1.8s;
-    transition: all 0.3s ease-in 1.8s; }
+    -webkit-transition: all 0.3s ease-out 1.8s;
+    transition: all 0.3s ease-out 1.8s; }
   table.animate tr:nth-child(37) {
-    -webkit-transition: all 0.3s ease-in 1.85s;
-    transition: all 0.3s ease-in 1.85s; }
+    -webkit-transition: all 0.3s ease-out 1.85s;
+    transition: all 0.3s ease-out 1.85s; }
   table.animate tr:nth-child(38) {
-    -webkit-transition: all 0.3s ease-in 1.9s;
-    transition: all 0.3s ease-in 1.9s; }
+    -webkit-transition: all 0.3s ease-out 1.9s;
+    transition: all 0.3s ease-out 1.9s; }
   table.animate tr:nth-child(39) {
-    -webkit-transition: all 0.3s ease-in 1.95s;
-    transition: all 0.3s ease-in 1.95s; }
+    -webkit-transition: all 0.3s ease-out 1.95s;
+    transition: all 0.3s ease-out 1.95s; }
   table.animate tr:nth-child(40) {
-    -webkit-transition: all 0.3s ease-in 2s;
-    transition: all 0.3s ease-in 2s; }
+    -webkit-transition: all 0.3s ease-out 2s;
+    transition: all 0.3s ease-out 2s; }
   table.animate tr:nth-child(41) {
-    -webkit-transition: all 0.3s ease-in 2.05s;
-    transition: all 0.3s ease-in 2.05s; }
+    -webkit-transition: all 0.3s ease-out 2.05s;
+    transition: all 0.3s ease-out 2.05s; }
   table.animate tr:nth-child(42) {
-    -webkit-transition: all 0.3s ease-in 2.1s;
-    transition: all 0.3s ease-in 2.1s; }
+    -webkit-transition: all 0.3s ease-out 2.1s;
+    transition: all 0.3s ease-out 2.1s; }
   table.animate tr:nth-child(43) {
-    -webkit-transition: all 0.3s ease-in 2.15s;
-    transition: all 0.3s ease-in 2.15s; }
+    -webkit-transition: all 0.3s ease-out 2.15s;
+    transition: all 0.3s ease-out 2.15s; }
   table.animate tr:nth-child(44) {
-    -webkit-transition: all 0.3s ease-in 2.2s;
-    transition: all 0.3s ease-in 2.2s; }
+    -webkit-transition: all 0.3s ease-out 2.2s;
+    transition: all 0.3s ease-out 2.2s; }
   table.animate tr:nth-child(45) {
-    -webkit-transition: all 0.3s ease-in 2.25s;
-    transition: all 0.3s ease-in 2.25s; }
+    -webkit-transition: all 0.3s ease-out 2.25s;
+    transition: all 0.3s ease-out 2.25s; }
   table.animate tr:nth-child(46) {
-    -webkit-transition: all 0.3s ease-in 2.3s;
-    transition: all 0.3s ease-in 2.3s; }
+    -webkit-transition: all 0.3s ease-out 2.3s;
+    transition: all 0.3s ease-out 2.3s; }
   table.animate tr:nth-child(47) {
-    -webkit-transition: all 0.3s ease-in 2.35s;
-    transition: all 0.3s ease-in 2.35s; }
+    -webkit-transition: all 0.3s ease-out 2.35s;
+    transition: all 0.3s ease-out 2.35s; }
   table.animate tr:nth-child(48) {
-    -webkit-transition: all 0.3s ease-in 2.4s;
-    transition: all 0.3s ease-in 2.4s; }
+    -webkit-transition: all 0.3s ease-out 2.4s;
+    transition: all 0.3s ease-out 2.4s; }
   table.animate tr:nth-child(49) {
-    -webkit-transition: all 0.3s ease-in 2.45s;
-    transition: all 0.3s ease-in 2.45s; }
+    -webkit-transition: all 0.3s ease-out 2.45s;
+    transition: all 0.3s ease-out 2.45s; }
   table.animate tr:nth-child(50) {
-    -webkit-transition: all 0.3s ease-in 2.5s;
-    transition: all 0.3s ease-in 2.5s; }
+    -webkit-transition: all 0.3s ease-out 2.5s;
+    transition: all 0.3s ease-out 2.5s; }
   table.animate tr:nth-child(51) {
-    -webkit-transition: all 0.3s ease-in 2.55s;
-    transition: all 0.3s ease-in 2.55s; }
+    -webkit-transition: all 0.3s ease-out 2.55s;
+    transition: all 0.3s ease-out 2.55s; }
   table.animate tr:nth-child(52) {
-    -webkit-transition: all 0.3s ease-in 2.6s;
-    transition: all 0.3s ease-in 2.6s; }
+    -webkit-transition: all 0.3s ease-out 2.6s;
+    transition: all 0.3s ease-out 2.6s; }
   table.animate tr:nth-child(53) {
-    -webkit-transition: all 0.3s ease-in 2.65s;
-    transition: all 0.3s ease-in 2.65s; }
+    -webkit-transition: all 0.3s ease-out 2.65s;
+    transition: all 0.3s ease-out 2.65s; }
   table.animate tr:nth-child(54) {
-    -webkit-transition: all 0.3s ease-in 2.7s;
-    transition: all 0.3s ease-in 2.7s; }
+    -webkit-transition: all 0.3s ease-out 2.7s;
+    transition: all 0.3s ease-out 2.7s; }
   table.animate tr:nth-child(55) {
-    -webkit-transition: all 0.3s ease-in 2.75s;
-    transition: all 0.3s ease-in 2.75s; }
+    -webkit-transition: all 0.3s ease-out 2.75s;
+    transition: all 0.3s ease-out 2.75s; }
   table.animate tr:nth-child(56) {
-    -webkit-transition: all 0.3s ease-in 2.8s;
-    transition: all 0.3s ease-in 2.8s; }
+    -webkit-transition: all 0.3s ease-out 2.8s;
+    transition: all 0.3s ease-out 2.8s; }
   table.animate tr:nth-child(57) {
-    -webkit-transition: all 0.3s ease-in 2.85s;
-    transition: all 0.3s ease-in 2.85s; }
+    -webkit-transition: all 0.3s ease-out 2.85s;
+    transition: all 0.3s ease-out 2.85s; }
   table.animate tr:nth-child(58) {
-    -webkit-transition: all 0.3s ease-in 2.9s;
-    transition: all 0.3s ease-in 2.9s; }
+    -webkit-transition: all 0.3s ease-out 2.9s;
+    transition: all 0.3s ease-out 2.9s; }
   table.animate tr:nth-child(59) {
-    -webkit-transition: all 0.3s ease-in 2.95s;
-    transition: all 0.3s ease-in 2.95s; }
+    -webkit-transition: all 0.3s ease-out 2.95s;
+    transition: all 0.3s ease-out 2.95s; }
   table.animate tr:nth-child(60) {
-    -webkit-transition: all 0.3s ease-in 3s;
-    transition: all 0.3s ease-in 3s; }
+    -webkit-transition: all 0.3s ease-out 3s;
+    transition: all 0.3s ease-out 3s; }
   table.animate tr:nth-child(61) {
-    -webkit-transition: all 0.3s ease-in 3.05s;
-    transition: all 0.3s ease-in 3.05s; }
+    -webkit-transition: all 0.3s ease-out 3.05s;
+    transition: all 0.3s ease-out 3.05s; }
   table.animate tr:nth-child(62) {
-    -webkit-transition: all 0.3s ease-in 3.1s;
-    transition: all 0.3s ease-in 3.1s; }
+    -webkit-transition: all 0.3s ease-out 3.1s;
+    transition: all 0.3s ease-out 3.1s; }
   table.animate tr:nth-child(63) {
-    -webkit-transition: all 0.3s ease-in 3.15s;
-    transition: all 0.3s ease-in 3.15s; }
+    -webkit-transition: all 0.3s ease-out 3.15s;
+    transition: all 0.3s ease-out 3.15s; }
   table.animate tr:nth-child(64) {
-    -webkit-transition: all 0.3s ease-in 3.2s;
-    transition: all 0.3s ease-in 3.2s; }
+    -webkit-transition: all 0.3s ease-out 3.2s;
+    transition: all 0.3s ease-out 3.2s; }
   table.animate tr:nth-child(65) {
-    -webkit-transition: all 0.3s ease-in 3.25s;
-    transition: all 0.3s ease-in 3.25s; }
+    -webkit-transition: all 0.3s ease-out 3.25s;
+    transition: all 0.3s ease-out 3.25s; }
   table.animate tr:nth-child(66) {
-    -webkit-transition: all 0.3s ease-in 3.3s;
-    transition: all 0.3s ease-in 3.3s; }
+    -webkit-transition: all 0.3s ease-out 3.3s;
+    transition: all 0.3s ease-out 3.3s; }
   table.animate tr:nth-child(67) {
-    -webkit-transition: all 0.3s ease-in 3.35s;
-    transition: all 0.3s ease-in 3.35s; }
+    -webkit-transition: all 0.3s ease-out 3.35s;
+    transition: all 0.3s ease-out 3.35s; }
   table.animate tr:nth-child(68) {
-    -webkit-transition: all 0.3s ease-in 3.4s;
-    transition: all 0.3s ease-in 3.4s; }
+    -webkit-transition: all 0.3s ease-out 3.4s;
+    transition: all 0.3s ease-out 3.4s; }
   table.animate tr:nth-child(69) {
-    -webkit-transition: all 0.3s ease-in 3.45s;
-    transition: all 0.3s ease-in 3.45s; }
+    -webkit-transition: all 0.3s ease-out 3.45s;
+    transition: all 0.3s ease-out 3.45s; }
   table.animate tr:nth-child(70) {
-    -webkit-transition: all 0.3s ease-in 3.5s;
-    transition: all 0.3s ease-in 3.5s; }
+    -webkit-transition: all 0.3s ease-out 3.5s;
+    transition: all 0.3s ease-out 3.5s; }
   table.animate tr:nth-child(71) {
-    -webkit-transition: all 0.3s ease-in 3.55s;
-    transition: all 0.3s ease-in 3.55s; }
+    -webkit-transition: all 0.3s ease-out 3.55s;
+    transition: all 0.3s ease-out 3.55s; }
   table.animate tr:nth-child(72) {
-    -webkit-transition: all 0.3s ease-in 3.6s;
-    transition: all 0.3s ease-in 3.6s; }
+    -webkit-transition: all 0.3s ease-out 3.6s;
+    transition: all 0.3s ease-out 3.6s; }
   table.animate tr:nth-child(73) {
-    -webkit-transition: all 0.3s ease-in 3.65s;
-    transition: all 0.3s ease-in 3.65s; }
+    -webkit-transition: all 0.3s ease-out 3.65s;
+    transition: all 0.3s ease-out 3.65s; }
   table.animate tr:nth-child(74) {
-    -webkit-transition: all 0.3s ease-in 3.7s;
-    transition: all 0.3s ease-in 3.7s; }
+    -webkit-transition: all 0.3s ease-out 3.7s;
+    transition: all 0.3s ease-out 3.7s; }
   table.animate tr:nth-child(75) {
-    -webkit-transition: all 0.3s ease-in 3.75s;
-    transition: all 0.3s ease-in 3.75s; }
+    -webkit-transition: all 0.3s ease-out 3.75s;
+    transition: all 0.3s ease-out 3.75s; }
   table.animate tr:nth-child(76) {
-    -webkit-transition: all 0.3s ease-in 3.8s;
-    transition: all 0.3s ease-in 3.8s; }
+    -webkit-transition: all 0.3s ease-out 3.8s;
+    transition: all 0.3s ease-out 3.8s; }
   table.animate tr:nth-child(77) {
-    -webkit-transition: all 0.3s ease-in 3.85s;
-    transition: all 0.3s ease-in 3.85s; }
+    -webkit-transition: all 0.3s ease-out 3.85s;
+    transition: all 0.3s ease-out 3.85s; }
   table.animate tr:nth-child(78) {
-    -webkit-transition: all 0.3s ease-in 3.9s;
-    transition: all 0.3s ease-in 3.9s; }
+    -webkit-transition: all 0.3s ease-out 3.9s;
+    transition: all 0.3s ease-out 3.9s; }
   table.animate tr:nth-child(79) {
-    -webkit-transition: all 0.3s ease-in 3.95s;
-    transition: all 0.3s ease-in 3.95s; }
+    -webkit-transition: all 0.3s ease-out 3.95s;
+    transition: all 0.3s ease-out 3.95s; }
   table.animate tr:nth-child(80) {
-    -webkit-transition: all 0.3s ease-in 4s;
-    transition: all 0.3s ease-in 4s; }
+    -webkit-transition: all 0.3s ease-out 4s;
+    transition: all 0.3s ease-out 4s; }
   table.animate tr:nth-child(81) {
-    -webkit-transition: all 0.3s ease-in 4.05s;
-    transition: all 0.3s ease-in 4.05s; }
+    -webkit-transition: all 0.3s ease-out 4.05s;
+    transition: all 0.3s ease-out 4.05s; }
   table.animate tr:nth-child(82) {
-    -webkit-transition: all 0.3s ease-in 4.1s;
-    transition: all 0.3s ease-in 4.1s; }
+    -webkit-transition: all 0.3s ease-out 4.1s;
+    transition: all 0.3s ease-out 4.1s; }
   table.animate tr:nth-child(83) {
-    -webkit-transition: all 0.3s ease-in 4.15s;
-    transition: all 0.3s ease-in 4.15s; }
+    -webkit-transition: all 0.3s ease-out 4.15s;
+    transition: all 0.3s ease-out 4.15s; }
   table.animate tr:nth-child(84) {
-    -webkit-transition: all 0.3s ease-in 4.2s;
-    transition: all 0.3s ease-in 4.2s; }
+    -webkit-transition: all 0.3s ease-out 4.2s;
+    transition: all 0.3s ease-out 4.2s; }
   table.animate tr:nth-child(85) {
-    -webkit-transition: all 0.3s ease-in 4.25s;
-    transition: all 0.3s ease-in 4.25s; }
+    -webkit-transition: all 0.3s ease-out 4.25s;
+    transition: all 0.3s ease-out 4.25s; }
   table.animate tr:nth-child(86) {
-    -webkit-transition: all 0.3s ease-in 4.3s;
-    transition: all 0.3s ease-in 4.3s; }
+    -webkit-transition: all 0.3s ease-out 4.3s;
+    transition: all 0.3s ease-out 4.3s; }
   table.animate tr:nth-child(87) {
-    -webkit-transition: all 0.3s ease-in 4.35s;
-    transition: all 0.3s ease-in 4.35s; }
+    -webkit-transition: all 0.3s ease-out 4.35s;
+    transition: all 0.3s ease-out 4.35s; }
   table.animate tr:nth-child(88) {
-    -webkit-transition: all 0.3s ease-in 4.4s;
-    transition: all 0.3s ease-in 4.4s; }
+    -webkit-transition: all 0.3s ease-out 4.4s;
+    transition: all 0.3s ease-out 4.4s; }
   table.animate tr:nth-child(89) {
-    -webkit-transition: all 0.3s ease-in 4.45s;
-    transition: all 0.3s ease-in 4.45s; }
+    -webkit-transition: all 0.3s ease-out 4.45s;
+    transition: all 0.3s ease-out 4.45s; }
   table.animate tr:nth-child(90) {
-    -webkit-transition: all 0.3s ease-in 4.5s;
-    transition: all 0.3s ease-in 4.5s; }
+    -webkit-transition: all 0.3s ease-out 4.5s;
+    transition: all 0.3s ease-out 4.5s; }
   table.animate tr:nth-child(91) {
-    -webkit-transition: all 0.3s ease-in 4.55s;
-    transition: all 0.3s ease-in 4.55s; }
+    -webkit-transition: all 0.3s ease-out 4.55s;
+    transition: all 0.3s ease-out 4.55s; }
   table.animate tr:nth-child(92) {
-    -webkit-transition: all 0.3s ease-in 4.6s;
-    transition: all 0.3s ease-in 4.6s; }
+    -webkit-transition: all 0.3s ease-out 4.6s;
+    transition: all 0.3s ease-out 4.6s; }
   table.animate tr:nth-child(93) {
-    -webkit-transition: all 0.3s ease-in 4.65s;
-    transition: all 0.3s ease-in 4.65s; }
+    -webkit-transition: all 0.3s ease-out 4.65s;
+    transition: all 0.3s ease-out 4.65s; }
   table.animate tr:nth-child(94) {
-    -webkit-transition: all 0.3s ease-in 4.7s;
-    transition: all 0.3s ease-in 4.7s; }
+    -webkit-transition: all 0.3s ease-out 4.7s;
+    transition: all 0.3s ease-out 4.7s; }
   table.animate tr:nth-child(95) {
-    -webkit-transition: all 0.3s ease-in 4.75s;
-    transition: all 0.3s ease-in 4.75s; }
+    -webkit-transition: all 0.3s ease-out 4.75s;
+    transition: all 0.3s ease-out 4.75s; }
   table.animate tr:nth-child(96) {
-    -webkit-transition: all 0.3s ease-in 4.8s;
-    transition: all 0.3s ease-in 4.8s; }
+    -webkit-transition: all 0.3s ease-out 4.8s;
+    transition: all 0.3s ease-out 4.8s; }
   table.animate tr:nth-child(97) {
-    -webkit-transition: all 0.3s ease-in 4.85s;
-    transition: all 0.3s ease-in 4.85s; }
+    -webkit-transition: all 0.3s ease-out 4.85s;
+    transition: all 0.3s ease-out 4.85s; }
   table.animate tr:nth-child(98) {
-    -webkit-transition: all 0.3s ease-in 4.9s;
-    transition: all 0.3s ease-in 4.9s; }
+    -webkit-transition: all 0.3s ease-out 4.9s;
+    transition: all 0.3s ease-out 4.9s; }
   table.animate tr:nth-child(99) {
-    -webkit-transition: all 0.3s ease-in 4.95s;
-    transition: all 0.3s ease-in 4.95s; }
+    -webkit-transition: all 0.3s ease-out 4.95s;
+    transition: all 0.3s ease-out 4.95s; }
   table.animate tr:nth-child(100) {
-    -webkit-transition: all 0.3s ease-in 5s;
-    transition: all 0.3s ease-in 5s; }
+    -webkit-transition: all 0.3s ease-out 5s;
+    transition: all 0.3s ease-out 5s; }
 
 div.animate--done, table.animate--done tr, a.animate--done {
   opacity: 1;

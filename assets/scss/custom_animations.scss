@@ -1,10 +1,10 @@
 
 div.animate, a.animate {
-  transform: translateY(-60px);
+  transform: translateY(-20px);
   opacity: 0;
   @for $i from 1 through 100 {
     &:nth-child(#{$i}) {
-      transition: all .15s ease-in #{$i*0.1}s;
+      transition: all .15s ease-out #{$i*0.1}s;
     }
   }
 }
@@ -16,19 +16,19 @@ div, a {
     }
   }
   &.animate--left-to-right{
-    transform: translateX(-60px);
+    transform: translateX(-20px);
   }
   &.animate--right-to-left{
-    transform: translateX(60px);
+    transform: translateX(20px);
   }
 }
 
 table.animate tr {
-  transform: translateY(-60px);
+  transform: translateY(-20px);
   opacity: 0;
   @for $i from 1 through 100 {
     &:nth-child(#{$i}) {
-      transition: all .3s ease-in #{$i*0.05}s;
+      transition: all .3s ease-out #{$i*0.05}s;
     }
   }
 }
