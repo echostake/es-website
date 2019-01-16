@@ -419,15 +419,26 @@
 
   .navbar-collapse{
     position: absolute;
-    width: calc(100% - 1.4rem);
+    width: 100%;
     height: auto !important;
     left: 0;
     top: 0;
-    margin: 0.7rem;
-    background: $card-black-background;
-    border-radius: $border-radius-sm;
-    padding: 1.4rem;
+    margin: 0;
+    background: #161C2C;
+    padding: 20px 30px;
   }
+  .navbar-nav{
+   .nav-link{
+     display: block;
+     padding: 24px 0;
+   }
+  }
+  .close__button{
+    position: relative;
+    left: 15px;
+  }
+  //navbar-toggler navbar-toggler
+  //navbar-toggler navbar-toggler toggled
 }
 @media screen and (max-width: 576px){
   .navbar[class*='navbar-toggleable-'] .container{

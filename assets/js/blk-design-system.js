@@ -177,7 +177,6 @@ function debounce(func, wait, immediate) {
 
 $(document).on('click', '.navbar-toggler', function() {
   $toggle = $(this);
-
   if (blackKit.misc.navbar_menu_visible == 1) {
     $('html').removeClass('nav-open');
     blackKit.misc.navbar_menu_visible = 0;
@@ -185,6 +184,7 @@ $(document).on('click', '.navbar-toggler', function() {
     setTimeout(function() {
       $toggle.removeClass('toggled');
     }, 550);
+
   } else {
     setTimeout(function() {
       $toggle.addClass('toggled');
@@ -198,11 +198,14 @@ $(document).on('click', '.navbar-toggler', function() {
         $('#bodyClick').remove();
       }, 550);
     });
-
     $('html').addClass('nav-open');
+    setTimeout(function() {
+        window.addEventListener('click', () => $toggle.click(), { once: true })
+    }, 0)
     blackKit.misc.navbar_menu_visible = 1;
   }
 });
+
 
 blackKit = {
   misc: {
