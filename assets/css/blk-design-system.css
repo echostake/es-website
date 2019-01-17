@@ -15871,8 +15871,8 @@ svg {
   stroke: #0059FF; }
 
 div.animate, a.animate {
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
   opacity: 0; }
   div.animate:nth-child(1), a.animate:nth-child(1) {
     -webkit-transition: all 0.15s ease-out 0.1s;
@@ -16188,8 +16188,8 @@ div.animate--right-to-left, a.animate--right-to-left {
           transform: translateX(20px); }
 
 table.animate tr {
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
   opacity: 0; }
   table.animate tr:nth-child(1) {
     -webkit-transition: all 0.3s ease-out 0.05s;

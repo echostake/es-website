@@ -1,6 +1,6 @@
 
 div.animate, a.animate {
-  transform: translateY(-20px);
+  transform: translateY(20px);
   opacity: 0;
   @for $i from 1 through 100 {
     &:nth-child(#{$i}) {
@@ -24,7 +24,7 @@ div, a {
 }
 
 table.animate tr {
-  transform: translateY(-20px);
+  transform: translateY(20px);
   opacity: 0;
   @for $i from 1 through 100 {
     &:nth-child(#{$i}) {
