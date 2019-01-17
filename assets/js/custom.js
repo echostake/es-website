@@ -1,79 +1,41 @@
-if ( !window.requestAnimationFrame ) {
+$(document).ready(function () {
+    $('a[href^="#"]').bind('click.smoothscroll', function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
 
-    window.requestAnimationFrame = ( function() {
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top - 75
+        }, 900);
+        window.location.hash = target;
+    });
 
-        return window.webkitRequestAnimationFrame ||
-            window.mozRequestAnimationFrame ||
-            window.oRequestAnimationFrame ||
-            window.msRequestAnimationFrame ||
-            function( /* function FrameRequestCallback */ callback, /* DOMElement Element */ element ) {
-                window.setTimeout( callback, 1000 / 60 );
-
-            };
-
-    } )();
-
-}
-
+    var $elements = $('.animate');
+    var $window = $(window);
+    var animationDelay  = (window.innerWidth<991) ? -20 : 80;
 
 
-var ball;
-var w;
-var h;
+    animation()
+    $window.on('scroll', function (e) {
+        animation()
+    });
 
-function init()
-{
-    ball = document.getElementById("ball");
-    w = window.innerWidth;
-    h = window.innerHeight;
-
-    ball.style.left = (w/2)-50+"px";
-    ball.style.top = (h/2)-50+"px";
-    ball.velocity = {x:0,y:0}
-    ball.position = {x:0,y:0}
-
-    if (window.DeviceOrientationEvent) {
-
-        window.addEventListener("deviceorientation", function(event)
-            {
-                console.log(event.beta)
-                console.log(event.gamma)
-                // ball.velocity.y = Math.round(event.beta);
-                // ball.velocity.x = Math.round(event.gamma);
-            }
-        )
+    function animation() {
+        $elements.each(function (i, elem) { //loop through each element
+            if ($(this).hasClass('animate--done')) // check if already animated
+                return;
+            animateMe($(this));
+        });
     }
 
-    update();
-}
+    function animateMe(elem) {
+        var winTop = $(window).scrollTop() - animationDelay; // calculate distance from top of window
+        var winBottom = winTop + $(window).height() - animationDelay;
+        var elemTop = $(elem).offset().top; // element distance from top of page
+        var elemBottom = elemTop + $(elem).height();
 
-function update()
-{
-    ball.position.x += ball.velocity.x;
-    ball.position.y += ball.velocity.y;
-
-    if(ball.position.x > (w-100) && ball.velocity.x > 0)
-    {
-        ball.position.x = w-100;
+        if ((winTop <= elemTop && winBottom >= elemTop) || (winTop <= elemBottom && winBottom >= elemBottom)) {
+            $(elem).addClass('animate--done');
+        }
     }
-
-    if(ball.position.x < 0 && ball.velocity.x < 0)
-    {
-        ball.position.x = 0;
-    }
-
-    if(ball.position.y > (h-100) && ball.velocity.y > 0)
-    {
-        ball.position.y = h-100;
-    }
-
-    if(ball.position.y < 0 && ball.velocity.y < 0)
-    {
-        ball.position.y = 0;
-    }
-
-    ball.style.top = ball.position.y + "px"
-    ball.style.left = ball.position.x + "px"
-
-    requestAnimationFrame( update );//KEEP ANIMATING
-}
+});

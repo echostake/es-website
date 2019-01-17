@@ -1,5 +1,5 @@
 
-div.animate, a.animate {
+.animate:not(table) {
   transform: translateY(-20px);
   opacity: 0;
   @for $i from 1 through 100 {
@@ -33,26 +33,23 @@ table.animate tr {
   }
 }
 
-div.animate--done, table.animate--done tr, a.animate--done {
+
+.animate--done:not(table), table.animate--done tr{
   opacity: 1;
   transform: translateY(0);
 }
-div, a {
-  &.animate--done {
-    &.animate--zoom{
-      transform: scale(1);
-    }
-    &.animate--left-to-right{
-      transform: translateX(0);
-    }
-    &.animate--right-to-left{
-      transform: translateX(0);
-    }
+
+.animate--done:not(table) {
+  &.animate--zoom{
+    transform: scale(1);
   }
-
+  &.animate--left-to-right{
+    transform: translateX(0);
+  }
+  &.animate--right-to-left{
+    transform: translateX(0);
+  }
 }
-
-
 
 svg.animate--done {
   @for $i from 1 through 55 {

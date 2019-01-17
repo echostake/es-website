@@ -137,6 +137,7 @@ p {
   img {
     padding-right: 18px;
     width: 40px;
+    max-height: 38px;
     box-sizing: content-box;
   }
   &.disabled {
@@ -370,13 +371,17 @@ p {
 }
 .copyrigth{
   padding-left: 16px;
+  position: relative;
+  top: 2px;
 }
 
 .footer__logo{
   display: flex;
   align-items: center;
 }
-
+.section.page-header{
+  padding-top: 100px;
+}
 @media(max-width: 767px) {
   .soc__item {
     margin: 0 12px;
@@ -409,7 +414,9 @@ p {
   .footer__line{
     flex-direction: column;
     padding-left: 30px;
-
+  }
+  .navbar .navbar-brand {
+    margin-left: 0px;
   }
 }
 
@@ -432,9 +439,7 @@ p {
   .section {
     padding: 40px 0;
   }
-  .section.page-header{
-    padding-top: 100px;
-  }
+
   .main_bg{
     img, svg{
       padding: 16px;
@@ -487,6 +492,10 @@ p {
   }
   h3+.distribution__row{
     flex-direction: column-reverse;
+  }
+  .distribution__row{
+    max-width: 100%;
+    overflow: hidden;
   }
   .distribution__item-image img{
     padding-bottom: 40px;
