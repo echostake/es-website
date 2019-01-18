@@ -8,7 +8,7 @@ Official website for Echostake project.
 
 * Twitter: <https://twitter.com/echostake>
 
-* Discord: <https://discord.gg/ndkr2NG>
+* Discord: <https://discord.gg/xHym58P>
 
 * Block explorer: <https://blocks.echostake.com>
 
